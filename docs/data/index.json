@@ -1,0 +1,55 @@
+{
+  "latest_date": "2026-03-25",
+  "updated_at": "2026-03-26T08:00:00Z",
+  "dates": ["2026-03-25"],
+  "items": [
+    {
+      "id": "a1b2c3d4",
+      "lang": "en",
+      "title_en": "OpenAI Releases GPT-5 with Revolutionary Reasoning Capabilities",
+      "title_zh": "OpenAI 发布 GPT-5，具备革命性推理能力",
+      "summary_zh": "OpenAI：OpenAI 正式发布 GPT-5，在逻辑推理、数学计算和代码生成方面实现重大突破。新模型采用混合架构，支持 100 万 tokens 上下文窗口，在 MMLU 基准测试中达到 92.5 分，超越人类专家水平。",
+      "summary_en": "OpenAI: OpenAI officially releases GPT-5, achieving major breakthroughs in logical reasoning, mathematical computation, and code generation. The new model uses a hybrid architecture, supports 1M token context window, and scores 92.5 on MMLU benchmark, surpassing human expert level.",
+      "tags": ["模型发布", "OpenAI"],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/news/gpt-5",
+      "published_at": "2026-03-25T18:00:00Z",
+      "collected_at": "2026-03-26T08:00:00Z",
+      "importance": 5,
+      "merged_sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/gpt-5-release"
+        }
+      ]
+    },
+    {
+      "id": "e5f6g7h8",
+      "lang": "zh",
+      "title_zh": "昆仑万维 AI 音乐模型 Mureka V8 登顶国际榜单",
+      "summary_zh": "量子位：昆仑万维旗下 AI 音乐模型 Mureka V8 在 Artificial Analysis 音乐模型榜单中登顶，超越 Suno V4.5、Udio v1.5 等国际主流模型，实现人声（vocal）与器乐（instrument）双项第一。测试显示其在低复杂度提示词下也具备较强的理解和生成能力。",
+      "tags": ["产品发布", "多模态评测基准"],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/mureka-v8",
+      "published_at": "2026-03-25T08:00:00Z",
+      "collected_at": "2026-03-26T08:00:00Z",
+      "importance": 4,
+      "merged_sources": []
+    },
+    {
+      "id": "i9j0k1l2",
+      "lang": "en",
+      "title_en": "Anthropic Introduces Auto Mode for Claude Code",
+      "title_zh": "Anthropic 为 Claude Code 推出自动模式",
+      "summary_zh": "TechCrunch：Anthropic 为 Claude Code 推出自动模式，允许 AI 代理自主完成多步骤开发任务，减少人工审批环节。此举体现了 AI 编程工具走向更高自主性的行业趋势，但 Anthropic 仍保留安全限制以防止意外操作。",
+      "summary_en": "TechCrunch: Anthropic has launched auto mode for Claude Code, enabling the AI agent to execute multi-step development tasks with fewer manual approvals. The update reflects a broader industry trend toward more autonomous agentic coding tools, while Anthropic maintains safety guardrails.",
+      "tags": ["Agent 编程", "Anthropic"],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/claude-code-auto",
+      "published_at": "2026-03-25T14:00:00Z",
+      "collected_at": "2026-03-26T08:00:00Z",
+      "importance": 4,
+      "merged_sources": []
+    }
+  ]
+}

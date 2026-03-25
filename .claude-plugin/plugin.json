@@ -1,0 +1,25 @@
+{
+  "name": "ai-daily",
+  "version": "1.0.0",
+  "description": "AI 行业资讯日报自动生成工具",
+  "skills": [
+    {
+      "name": "ai-daily",
+      "path": "./skills/ai-daily/SKILL.md"
+    }
+  ],
+  "commands": [
+    {
+      "name": "generate-daily",
+      "description": "生成指定日期的 AI 日报数据",
+      "usage": "generate-daily [date]",
+      "example": "generate-daily 2026-03-25"
+    },
+    {
+      "name": "run-pipeline",
+      "description": "运行完整的 AI 日报流水线",
+      "usage": "run-pipeline",
+      "example": "run-pipeline"
+    }
+  ]
+}

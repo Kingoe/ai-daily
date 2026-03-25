@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Daily - AI 行业资讯日报</title>
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666666;
+            --accent: #0066cc;
+            --border: #e1e4e8;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --accent: #58a6ff;
+            --border: #30363d;
+            --shadow: rgba(0, 0, 0, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        h1 a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .theme-toggle, .mode-toggle {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .theme-toggle:hover, .mode-toggle:hover {
+            border-color: var(--accent);
+        }
+
+        .date-selector {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .date-selector button {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .date-selector button:hover:not(:disabled) {
+            border-color: var(--accent);
+        }
+
+        .date-selector button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .current-date {
+            font-weight: 600;
+            min-width: 120px;
+            text-align: center;
+        }
+
+        .filters {
+            background: var(--bg-secondary);
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .filter-select {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .news-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            transition: all 0.2s;
+        }
+
+        .news-item:hover {
+            box-shadow: 0 4px 12px var(--shadow);
+            transform: translateY(-2px);
+        }
+
+        .news-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+            gap: 15px;
+        }
+
+        .news-title {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .news-title a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .news-title a:hover {
+            text-decoration: underline;
+        }
+
+        .news-meta {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .importance-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+        }
+
+        .importance-5 { background: #dc3545; }
+        .importance-4 { background: #fd7e14; }
+        .importance-3 { background: #ffc107; color: #1a1a1a; }
+        .importance-2 { background: #28a745; }
+        .importance-1 { background: #6c757d; }
+
+        .news-source {
+            font-size: 13px;
+            color: var(--text-secondary);
+            background: var(--bg-primary);
+            padding: 4px 8px;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+
+        .news-summary {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .news-summary-zh {
+            margin-bottom: 8px;
+        }
+
+        .news-summary-en {
+            color: var(--text-secondary);
+            font-size: 14px;
+            padding-top: 8px;
+            border-top: 1px solid var(--border);
+        }
+
+        .news-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .news-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag {
+            font-size: 12px;
+            background: var(--bg-primary);
+            color: var(--text-secondary);
+            padding: 4px 10px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .news-time {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .merged-sources {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .merged-sources a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .spinner {
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .error {
+            text-align: center;
+            padding: 60px 20px;
+            color: #dc3545;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .stats {
+            background: var(--bg-secondary);
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .filters {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-group {
+                justify-content: space-between;
+            }
+
+            .news-header {
+                flex-direction: column;
+            }
+
+            .news-footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1><a href="#">AI Daily</a></h1>
+                <div class="controls">
+                    <div class="date-selector">
+                        <button id="prevDate">← 前一天</button>
+                        <span class="current-date" id="currentDate">-</span>
+                        <button id="nextDate">后一天 →</button>
+                    </div>
+                    <button class="mode-toggle" id="modeToggle">周模式</button>
+                    <button class="theme-toggle" id="themeToggle">🌙 深色</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="filters">
+            <div class="filter-group">
+                <span class="filter-label">语言:</span>
+                <select class="filter-select" id="langFilter">
+                    <option value="all">全部</option>
+                    <option value="zh">中文</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <span class="filter-label">来源:</span>
+                <select class="filter-select" id="sourceFilter">
+                    <option value="all">全部</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <span class="filter-label">标签:</span>
+                <select class="filter-select" id="tagFilter">
+                    <option value="all">全部</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <span class="filter-label">重要性:</span>
+                <select class="filter-select" id="importanceFilter">
+                    <option value="all">全部</option>
+                    <option value="5">⭐⭐⭐⭐⭐ (5)</option>
+                    <option value="4">⭐⭐⭐⭐ (4+)</option>
+                    <option value="3">⭐⭐⭐ (3+)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats" id="stats"></div>
+
+        <div class="news-list" id="newsList">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>加载中...</p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const DATA_URL = 'data/index.json';
+        let currentIndex = null;
+        let currentMode = 'day';
+        let currentDate = null;
+        let allData = {};
+
+        // 主题切换
+        const themeToggle = document.getElementById('themeToggle');
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        updateThemeButton(savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeButton(newTheme);
+        });
+
+        function updateThemeButton(theme) {
+            themeToggle.textContent = theme === 'dark' ? '☀️ 浅色' : '🌙 深色';
+        }
+
+        // 模式切换
+        const modeToggle = document.getElementById('modeToggle');
+        modeToggle.addEventListener('click', () => {
+            currentMode = currentMode === 'day' ? 'week' : 'day';
+            modeToggle.textContent = currentMode === 'day' ? '周模式' : '日模式';
+            // TODO: 实现周模式
+        });
+
+        // 加载数据
+        async function loadData() {
+            try {
+                const response = await fetch(DATA_URL);
+                if (!response.ok) throw new Error('加载失败');
+                const data = await response.json();
+                currentIndex = data;
+                currentDate = data.latest_date;
+                updateDateDisplay();
+                populateFilters(data.items);
+                renderNews(data.items);
+                updateStats(data.items);
+            } catch (error) {
+                document.getElementById('newsList').innerHTML = `
+                    <div class="error">
+                        <p>加载失败：${error.message}</p>
+                        <p>请确保已生成日报数据</p>
+                    </div>
+                `;
+            }
+        }
+
+        // 更新日期显示
+        function updateDateDisplay() {
+            document.getElementById('currentDate').textContent = formatDate(currentDate);
+        }
+
+        // 格式化日期
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+            const weekday = weekdays[date.getDay()];
+            return `${dateStr} (${weekday})`;
+        }
+
+        // 填充过滤器
+        function populateFilters(items) {
+            const sources = new Set(items.map(item => item.source_name));
+            const tags = new Set();
+            items.forEach(item => item.tags.forEach(tag => tags.add(tag)));
+
+            const sourceFilter = document.getElementById('sourceFilter');
+            const tagFilter = document.getElementById('tagFilter');
+
+            sources.forEach(source => {
+                const option = document.createElement('option');
+                option.value = source;
+                option.textContent = source;
+                sourceFilter.appendChild(option);
+            });
+
+            tags.forEach(tag => {
+                const option = document.createElement('option');
+                option.value = tag;
+                option.textContent = tag;
+                tagFilter.appendChild(option);
+            });
+        }
+
+        // 渲染新闻列表
+        function renderNews(items) {
+            const newsList = document.getElementById('newsList');
+            
+            if (items.length === 0) {
+                newsList.innerHTML = `
+                    <div class="empty-state">
+                        <p>暂无新闻</p>
+                    </div>
+                `;
+                return;
+            }
+
+            newsList.innerHTML = items.map(item => `
+                <div class="news-item" data-lang="${item.lang}" data-source="${item.source_name}" data-tags="${item.tags.join(',')}" data-importance="${item.importance}">
+                    <div class="news-header">
+                        <div class="news-title">
+                            <a href="${item.source_url}" target="_blank" rel="noopener">
+                                ${item.lang === 'en' ? (item.title_en || item.title_zh) : item.title_zh}
+                            </a>
+                        </div>
+                        <div class="news-meta">
+                            <span class="importance-badge importance-${item.importance}" title="重要性评分">${item.importance}</span>
+                            <span class="news-source">${item.source_name}</span>
+                        </div>
+                    </div>
+                    <div class="news-summary">
+                        <div class="news-summary-zh">${item.summary_zh}</div>
+                        ${item.lang === 'en' && item.summary_en ? `
+                            <div class="news-summary-en">${item.summary_en}</div>
+                        ` : ''}
+                    </div>
+                    <div class="news-footer">
+                        <div class="news-tags">
+                            ${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                        </div>
+                        <div class="news-time">${formatTime(item.published_at)}</div>
+                    </div>
+                    ${item.merged_sources && item.merged_sources.length > 0 ? `
+                        <div class="merged-sources">
+                            也被报道于：${item.merged_sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>`).join(', ')}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+
+            // 绑定过滤器事件
+            bindFilters();
+        }
+
+        // 格式化时间
+        function formatTime(isoStr) {
+            const date = new Date(isoStr);
+            return date.toLocaleString('zh-CN', { 
+                month: '2-digit', 
+                day: '2-digit', 
+                hour: '2-digit', 
+                minute: '2-digit' 
+            });
+        }
+
+        // 绑定过滤器
+        function bindFilters() {
+            const filters = ['langFilter', 'sourceFilter', 'tagFilter', 'importanceFilter'];
+            filters.forEach(id => {
+                document.getElementById(id).addEventListener('change', applyFilters);
+            });
+        }
+
+        // 应用过滤器
+        function applyFilters() {
+            const lang = document.getElementById('langFilter').value;
+            const source = document.getElementById('sourceFilter').value;
+            const tag = document.getElementById('tagFilter').value;
+            const importance = document.getElementById('importanceFilter').value;
+
+            const items = currentIndex.items.filter(item => {
+                if (lang !== 'all' && item.lang !== lang) return false;
+                if (source !== 'all' && item.source_name !== source) return false;
+                if (tag !== 'all' && !item.tags.includes(tag)) return false;
+                if (importance !== 'all' && item.importance < parseInt(importance)) return false;
+                return true;
+            });
+
+            renderNews(items);
+            updateStats(items);
+        }
+
+        // 更新统计
+        function updateStats(items) {
+            const stats = document.getElementById('stats');
+            const zhCount = items.filter(i => i.lang === 'zh').length;
+            const enCount = items.filter(i => i.lang === 'en').length;
+            const highImportance = items.filter(i => i.importance >= 4).length;
+
+            stats.textContent = `共 ${items.length} 条新闻 | 中文 ${zhCount} 条 | English ${enCount} 条 | 重要 ${highImportance} 条`;
+        }
+
+        // 日期切换
+        document.getElementById('prevDate').addEventListener('click', () => {
+            // TODO: 实现日期切换
+            alert('日期切换功能待实现');
+        });
+
+        document.getElementById('nextDate').addEventListener('click', () => {
+            alert('日期切换功能待实现');
+        });
+
+        // 初始化
+        loadData();
+    </script>
+</body>
+</html>
