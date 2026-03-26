@@ -200,6 +200,18 @@ def calculate_importance(news):
     return min(score, 5)
 
 
+def get_existing_dates(data_dir):
+    """获取已有的日期列表"""
+    index_file = os.path.join(data_dir, "index.json")
+    if os.path.exists(index_file):
+        try:
+            with open(index_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data.get('dates', [])
+        except:
+            pass
+    return []
+    
 def save_daily_data(news_list, date):
     """保存每日数据到 JSON 文件"""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -246,11 +258,19 @@ def save_daily_data(news_list, date):
     with open(daily_file, 'w', encoding='utf-8') as f:
         json.dump(daily_data, f, ensure_ascii=False, indent=2)
     
+    # 获取已有日期列表
+    data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
+    existing_dates = get_existing_dates(data_dir)
+    
+    # 更新或添加新日期
+    if date not in existing_dates:
+        existing_dates.insert(0, date)  # 新日期放在最前面
+    
     # 更新索引文件
     index_data = {
         "latest_date": date,
         "updated_at": datetime.now().isoformat() + "Z",
-        "dates": [date],
+        "dates": existing_dates,  # 保留所有日期
         "items": items
     }
     

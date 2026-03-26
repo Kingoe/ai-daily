@@ -229,6 +229,15 @@
             border: 1px solid var(--border);
         }
 
+        .news-date {
+            background: var(--accent);
+            color: white;
+            font-size: 12px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
         .news-summary {
             font-size: 15px;
             line-height: 1.7;
@@ -422,6 +431,7 @@
         let currentMode = 'day';
         let currentDate = null;
         let allData = {};
+        let availableDates = [];
 
         // 主题切换
         const themeToggle = document.getElementById('themeToggle');
@@ -457,10 +467,12 @@
                 const data = await response.json();
                 currentIndex = data;
                 currentDate = data.latest_date;
+                availableDates = data.dates || [data.latest_date];
                 updateDateDisplay();
                 populateFilters(data.items);
                 renderNews(data.items);
                 updateStats(data.items);
+                updateDateButtons();
             } catch (error) {
                 document.getElementById('newsList').innerHTML = `
                     <div class="error">
@@ -469,6 +481,37 @@
                     </div>
                 `;
             }
+        }
+        
+        // 加载指定日期的数据
+        async function loadDateData(date) {
+            try {
+                const response = await fetch(`data/${date}.json`);
+                if (!response.ok) throw new Error('该日期数据不存在');
+                const data = await response.json();
+                currentIndex = data;
+                currentDate = date;
+                updateDateDisplay();
+                populateFilters(data.items);
+                renderNews(data.items);
+                updateStats(data.items);
+                updateDateButtons();
+            } catch (error) {
+                alert(`无法加载 ${date} 的数据：${error.message}`);
+            }
+        }
+        
+        // 更新日期按钮状态
+        function updateDateButtons() {
+            const currentIndex = availableDates.indexOf(currentDate);
+            const prevBtn = document.getElementById('prevDate');
+            const nextBtn = document.getElementById('nextDate');
+            
+            // 前一天按钮：如果不是最早的日期
+            prevBtn.disabled = currentIndex >= availableDates.length - 1;
+            
+            // 后一天按钮：如果不是最新的日期
+            nextBtn.disabled = currentIndex <= 0;
         }
 
         // 更新日期显示
@@ -530,6 +573,7 @@
                             </a>
                         </div>
                         <div class="news-meta">
+                            ${item._date ? `<span class="news-date tag">${item._date}</span>` : ''}
                             <span class="importance-badge importance-${item.importance}" title="重要性评分">${item.importance}</span>
                             <span class="news-source">${item.source_name}</span>
                         </div>
@@ -606,15 +650,75 @@
             stats.textContent = `共 ${items.length} 条新闻 | 中文 ${zhCount} 条 | English ${enCount} 条 | 重要 ${highImportance} 条`;
         }
 
-        // 日期切换
+        // 日期切换 - 前一天
         document.getElementById('prevDate').addEventListener('click', () => {
-            // TODO: 实现日期切换
-            alert('日期切换功能待实现');
+            const currentIndex = availableDates.indexOf(currentDate);
+            if (currentIndex < availableDates.length - 1) {
+                const prevDate = availableDates[currentIndex + 1];
+                loadDateData(prevDate);
+            }
         });
 
+        // 日期切换 - 后一天
         document.getElementById('nextDate').addEventListener('click', () => {
-            alert('日期切换功能待实现');
+            const currentIndex = availableDates.indexOf(currentDate);
+            if (currentIndex > 0) {
+                const nextDate = availableDates[currentIndex - 1];
+                loadDateData(nextDate);
+            }
         });
+        
+        // 模式切换 - 周模式
+        document.getElementById('modeToggle').addEventListener('click', () => {
+            currentMode = currentMode === 'day' ? 'week' : 'day';
+            modeToggle.textContent = currentMode === 'day' ? '周模式' : '日模式';
+            
+            if (currentMode === 'week') {
+                // 周模式：加载最近 7 天的数据
+                loadWeekData();
+            } else {
+                // 日模式：加载当前日期的数据
+                loadDateData(currentDate);
+            }
+        });
+        
+        // 加载周数据
+        async function loadWeekData() {
+            const weekDates = availableDates.slice(0, 7); // 最近 7 天
+            const weekItems = [];
+            
+            // 加载每一天的数据
+            for (const date of weekDates) {
+                try {
+                    const response = await fetch(`data/${date}.json`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        // 添加日期标记
+                        data.items.forEach(item => {
+                            item._date = date;
+                            weekItems.push(item);
+                        });
+                    }
+                } catch (error) {
+                    console.warn(`无法加载 ${date} 的数据`);
+                }
+            }
+            
+            // 按日期和重要性排序
+            weekItems.sort((a, b) => {
+                if (b._date !== a._date) return b._date.localeCompare(a._date);
+                return b.importance - a.importance;
+            });
+            
+            currentIndex = { items: weekItems };
+            populateFilters(weekItems);
+            renderNews(weekItems);
+            updateStats(weekItems);
+            
+            // 禁用日期按钮（周模式下）
+            document.getElementById('prevDate').disabled = true;
+            document.getElementById('nextDate').disabled = true;
+        }
 
         // 初始化
         loadData();
