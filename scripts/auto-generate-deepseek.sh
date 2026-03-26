@@ -12,9 +12,16 @@ DATE=$(date +%Y-%m-%d)
 
 # ⚠️ 安全提示：不要在这里硬编码 API Key！
 # 从环境变量读取 API Key（在服务器上配置）
-# 本地测试可以临时配置
-DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-sk-0b37558bab504e16bade399f8453574b}"
+# 获取 API Key: https://platform.deepseek.com/
+DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-}"
 DEEPSEEK_URL="https://api.deepseek.com/v1/chat/completions"
+
+# 检查 API Key 是否配置
+if [ -z "$DEEPSEEK_API_KEY" ]; then
+    echo "错误：DEEPSEEK_API_KEY 环境变量未配置！"
+    echo "请在 ~/.bashrc 中添加：export DEEPSEEK_API_KEY='sk-xxxxx'"
+    exit 1
+fi
 
 # 检查 API Key 是否配置
 if [ -z "$DEEPSEEK_API_KEY" ]; then

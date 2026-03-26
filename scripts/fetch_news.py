@@ -24,7 +24,13 @@ import re
 # ==================== 配置区域 ====================
 
 # DeepSeek API 配置
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-0b37558bab504e16bade399f8453574b")
+# ⚠️ 安全提示：请在环境变量中配置 API Key
+# export DEEPSEEK_API_KEY="sk-xxx"
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY")
+if not DEEPSEEK_API_KEY:
+    print("错误：请设置 DEEPSEEK_API_KEY 环境变量")
+    print("获取 API Key: https://platform.deepseek.com/")
+    exit(1)
 DEEPSEEK_URL = "https://api.deepseek.com/v1/chat/completions"
 
 # RSS 源列表（这些源提供 RSS 订阅）

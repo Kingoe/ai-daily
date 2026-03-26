@@ -5,7 +5,13 @@
 set -e
 
 # 配置
-DEEPSEEK_API_KEY="sk-0b37558bab504e16bade399f8453574b"
+# ⚠️ 安全提示：从环境变量读取 API Key
+DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-}"
+if [ -z "$DEEPSEEK_API_KEY" ]; then
+    echo "错误：请设置 DEEPSEEK_API_KEY 环境变量"
+    echo "export DEEPSEEK_API_KEY='sk-xxx'"
+    exit 1
+fi
 DEEPSEEK_URL="https://api.deepseek.com/v1/chat/completions"
 DATE=$(date +%Y-%m-%d)
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
