@@ -1,0 +1,58 @@
+{
+  "date": "2026-03-23",
+  "generated_at": "2026-03-27T00:51:49.951959Z",
+  "total_items": 3,
+  "items": [
+    {
+      "id": "4baa784f",
+      "lang": "en",
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/creating-with-sora-safely",
+      "published_at": "Mon, 23 Mar 2026 00:00:00 GMT",
+      "collected_at": "2026-03-27T00:51:44.703382Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "Creating with Sora Safely",
+      "title_zh": "Creating with Sora Safely",
+      "summary_en": "为应对先进视频模型及社交创作平台的新安全挑战，我们以安全为基础开发了Sora 2模型及Sora应用，其核心是落实具体防护措施。",
+      "summary_zh": "OpenAI Blog：为应对先进视频模型及社交创作平台的新安全挑战，我们以安全为基础开发了Sora 2模型及Sora应用，其核心是落实具体防护措施。"
+    },
+    {
+      "id": "fa9f5d8e",
+      "lang": "en",
+      "tags": [
+        "MIT Tech Review AI"
+      ],
+      "source_name": "MIT Tech Review AI",
+      "source_url": "https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/",
+      "published_at": "Mon, 23 Mar 2026 16:31:20 +0000",
+      "collected_at": "2026-03-27T00:51:46.629180Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "The hardest question to answer about AI-fueled delusions",
+      "title_zh": "The hardest question to answer about AI-fueled delusions",
+      "summary_en": "美国《算法》周刊报道，五角大楼正计划让AI公司利用伊朗相关数据训练模型。",
+      "summary_zh": "MIT Tech Review AI：美国《算法》周刊报道，五角大楼正计划让AI公司利用伊朗相关数据训练模型。"
+    },
+    {
+      "id": "902fe510",
+      "lang": "en",
+      "tags": [
+        "MIT Tech Review AI"
+      ],
+      "source_name": "MIT Tech Review AI",
+      "source_url": "https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/",
+      "published_at": "Mon, 23 Mar 2026 09:00:00 +0000",
+      "collected_at": "2026-03-27T00:51:49.951901Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "The Bay Area’s animal welfare movement wants to recruit AI",
+      "title_zh": "The Bay Area’s animal welfare movement wants to recruit AI",
+      "summary_en": "2月初，动物保护倡导者与AI研究人员在旧金山一家无鞋共享办公空间Mox集会。现场铺设波斯地毯，悬挂彩篷与马赛克灯，一名野生动物倡导者向在场人群发表了讲话。",
+      "summary_zh": "MIT Tech Review AI：2月初，动物保护倡导者与AI研究人员在旧金山一家无鞋共享办公空间Mox集会。现场铺设波斯地毯，悬挂彩篷与马赛克灯，一名野生动物倡导者向在场人群发表了讲话。"
+    }
+  ]
+}

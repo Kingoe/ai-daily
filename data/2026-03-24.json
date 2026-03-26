@@ -1,0 +1,58 @@
+{
+  "date": "2026-03-24",
+  "generated_at": "2026-03-27T00:50:52.260768Z",
+  "total_items": 3,
+  "items": [
+    {
+      "id": "abb64897",
+      "lang": "en",
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "published_at": "Tue, 24 Mar 2026 11:00:00 GMT",
+      "collected_at": "2026-03-27T00:50:48.566344Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "Helping developers build safer AI experiences for teens",
+      "title_zh": "Helping developers build safer AI experiences for teens",
+      "summary_en": "OpenAI发布针对GPT模型开发者的青少年安全政策，通过提示词工程帮助开发者管控AI系统中的年龄特定风险。",
+      "summary_zh": "OpenAI Blog：OpenAI发布针对GPT模型开发者的青少年安全政策，通过提示词工程帮助开发者管控AI系统中的年龄特定风险。"
+    },
+    {
+      "id": "46a81ecb",
+      "lang": "en",
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/update-on-the-openai-foundation",
+      "published_at": "Tue, 24 Mar 2026 09:00:00 GMT",
+      "collected_at": "2026-03-27T00:50:50.629690Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "Update on the OpenAI Foundation",
+      "title_zh": "Update on the OpenAI Foundation",
+      "summary_en": "OpenAI基金会宣布将投资至少10亿美元，用于疾病治疗、经济机会、AI韧性和社区项目。",
+      "summary_zh": "OpenAI Blog：OpenAI基金会宣布将投资至少10亿美元，用于疾病治疗、经济机会、AI韧性和社区项目。"
+    },
+    {
+      "id": "80e065f1",
+      "lang": "en",
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "published_at": "Tue, 24 Mar 2026 09:00:00 GMT",
+      "collected_at": "2026-03-27T00:50:52.260747Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "Powering product discovery in ChatGPT",
+      "title_zh": "Powering product discovery in ChatGPT",
+      "summary_en": "ChatGPT推出基于Agentic Commerce协议的沉浸式购物功能，支持商品发现、比价及商家集成。",
+      "summary_zh": "OpenAI Blog：ChatGPT推出基于Agentic Commerce协议的沉浸式购物功能，支持商品发现、比价及商家集成。"
+    }
+  ]
+}
