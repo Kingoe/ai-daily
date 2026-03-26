@@ -53,15 +53,45 @@ RSS_FEEDS = [
         "language": "en"
     },
     {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/updates/rss",
+        "type": "official",
+        "language": "en"
+    },
+    {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/discover/rss/",
+        "type": "official",
+        "language": "en"
+    },
+    {
+        "name": "Cursor Blog",
+        "url": "https://cursor.com/blog/rss",
+        "type": "official",
+        "language": "en"
+    },
+    {
         "name": "TechCrunch AI",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "type": "media",
         "language": "en"
     },
     {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/rss/index.xml",
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence",
         "type": "media",
+        "language": "en"
+    },
+    {
+        "name": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+        "type": "media",
+        "language": "en"
+    },
+    {
+        "name": "Hacker News AI",
+        "url": "https://hnrss.org/frontpage?q=AI",
+        "type": "community",
         "language": "en"
     }
 ]
