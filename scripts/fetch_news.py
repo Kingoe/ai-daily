@@ -93,24 +93,22 @@ RSS_FEEDS = [
         "url": "https://hnrss.org/frontpage?q=AI",
         "type": "community",
         "language": "en"
+    },
+    {
+        "name": "量子位",
+        "url": "https://www.qbitai.com/feed",
+        "type": "media_cn",
+        "language": "zh"
+    },
+    {
+        "name": "机器之心",
+        "url": "https://www.jiqizhixin.com/rss",
+        "type": "media_cn",
+        "language": "zh"
     }
 ]
 
-# 网页爬虫源（需要解析 HTML）
-WEB_SOURCES = [
-    {
-        "name": "量子位",
-        "url": "https://www.qbitai.com/",
-        "type": "media_cn",
-        "language": "zh",
-        "selector": {
-            "item": "article.post",
-            "title": "h2 a",
-            "link": "a",
-            "summary": ".excerpt"
-        }
-    }
-]
+# 网页爬虫源（需要解析 HTML）- 目前无
 
 # 输出目录
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "docs", "data")
@@ -122,7 +120,19 @@ def fetch_from_rss(feed_info):
     """从 RSS 源抓取新闻"""
     print(f"📡 抓取 RSS: {feed_info['name']}")
     
-    feed = feedparser.parse(feed_info['url'])
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"
+    }
+    
+    try:
+        response = requests.get(feed_info['url'], headers=headers, timeout=10)
+        feed = feedparser.parse(response.content)
+    except Exception as e:
+        print(f"  ❌ 请求失败：{e}")
+        return []
+    
     news_list = []
     
     for entry in feed.entries[:5]:  # 每个源抓取最新的 5 条
@@ -139,45 +149,6 @@ def fetch_from_rss(feed_info):
     
     print(f"  ✅ 获取 {len(news_list)} 条新闻")
     return news_list
-
-
-def fetch_from_web(source_info):
-    """从网页抓取新闻（需要解析 HTML）"""
-    print(f"🕷️ 爬取网页：{source_info['name']}")
-    
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (compatible; AI Daily Bot/1.0)"
-        }
-        response = requests.get(source_info['url'], headers=headers, timeout=10)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        news_list = []
-        selector = source_info['selector']
-        
-        for item in soup.select(selector['item'])[:5]:
-            title_elem = item.select_one(selector['title'])
-            link_elem = item.select_one(selector['link'])
-            summary_elem = item.select_one(selector.get('summary', ''))
-            
-            if title_elem and link_elem:
-                news = {
-                    "title": title_elem.text.strip(),
-                    "url": link_elem.get('href', ''),
-                    "content": summary_elem.text.strip() if summary_elem else title_elem.text.strip(),
-                    "published_at": datetime.now().isoformat(),
-                    "source_name": source_info['name'],
-                    "source_type": source_info['type'],
-                    "language": source_info['language']
-                }
-                news_list.append(news)
-        
-        print(f"  ✅ 获取 {len(news_list)} 条新闻")
-        return news_list
-    
-    except Exception as e:
-        print(f"  ❌ 爬取失败：{e}")
-        return []
 
 
 def generate_summary_with_deepseek(content, language="zh"):
@@ -357,32 +328,23 @@ def main():
         news = fetch_from_rss(feed_info)
         all_news.extend(news)
     
-    # 2. 从网页抓取
+    # 2. 去重
     print("\n" + "=" * 50)
-    print("🕷️ 阶段 2: 网页爬取")
-    print("=" * 50)
-    
-    for source_info in WEB_SOURCES:
-        news = fetch_from_web(source_info)
-        all_news.extend(news)
-    
-    # 3. 去重
-    print("\n" + "=" * 50)
-    print("🔄 阶段 3: 去重")
+    print("🔄 阶段 2: 去重")
     print("=" * 50)
     
     unique_news = deduplicate_news(all_news)
     print(f"原始：{len(all_news)} 条 → 去重后：{len(unique_news)} 条")
     
-    # 4. 保存数据（包含调用 DeepSeek 生成摘要）
+    # 3. 保存数据（包含调用 DeepSeek 生成摘要）
     print("\n" + "=" * 50)
-    print("📝 阶段 4: 生成摘要并保存")
+    print("📝 阶段 3: 生成摘要并保存")
     print("=" * 50)
     
     date = datetime.now().strftime("%Y-%m-%d")
     save_daily_data(unique_news, date)
     
-    # 5. 完成
+    # 4. 完成
     print("\n" + "=" * 50)
     print("✅ 采集完成！")
     print("=" * 50)
