@@ -20,6 +20,16 @@ import feedparser
 from datetime import datetime
 from bs4 import BeautifulSoup
 import re
+from pathlib import Path
+from dotenv import load_dotenv
+
+# 加载 .env 文件中的环境变量
+env_path = Path(__file__).parent.parent / '.env'
+if env_path.exists():
+    load_dotenv(env_path)
+    print(f"✅ 已加载环境变量：{env_path}")
+else:
+    print("⚠️  未找到 .env 文件，请确保 DEEPSEEK_API_KEY 已配置")
 
 # ==================== 配置区域 ====================
 
@@ -30,6 +40,7 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY")
 if not DEEPSEEK_API_KEY:
     print("错误：请设置 DEEPSEEK_API_KEY 环境变量")
     print("获取 API Key: https://platform.deepseek.com/")
+    print("或在项目根目录创建 .env 文件")
     exit(1)
 DEEPSEEK_URL = "https://api.deepseek.com/v1/chat/completions"
 

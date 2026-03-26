@@ -1,15 +1,26 @@
 #!/bin/bash
 
 # AI Daily 本地测试脚本（使用 DeepSeek API）
+# 自动加载 .env 文件中的 API Key
 
 set -e
+
+# 加载 .env 文件
+if [ -f ".env" ]; then
+    set -a
+    source .env
+    set +a
+    echo "✅ 已加载 .env 文件"
+else
+    echo "⚠️  未找到 .env 文件，请确保 DEEPSEEK_API_KEY 已配置"
+fi
 
 # 配置
 # ⚠️ 安全提示：从环境变量读取 API Key
 DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-}"
 if [ -z "$DEEPSEEK_API_KEY" ]; then
     echo "错误：请设置 DEEPSEEK_API_KEY 环境变量"
-    echo "export DEEPSEEK_API_KEY='sk-xxx'"
+    echo "或在项目根目录创建 .env 文件"
     exit 1
 fi
 DEEPSEEK_URL="https://api.deepseek.com/v1/chat/completions"

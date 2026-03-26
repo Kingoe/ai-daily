@@ -2,8 +2,17 @@
 
 # AI Daily 自动化采集脚本（使用 DeepSeek API - 超便宜！）
 # 部署到服务器：/usr/local/bin/ai-daily-generate.sh
+# 自动加载 .env 文件中的 API Key
 
 set -e
+
+# 加载 .env 文件
+if [ -f "/var/www/ai-daily/.env" ]; then
+    set -a
+    source /var/www/ai-daily/.env
+    set +a
+    echo "✅ 已加载 /var/www/ai-daily/.env"
+fi
 
 # 配置
 PROJECT_DIR="/var/www/ai-daily"
@@ -20,6 +29,7 @@ DEEPSEEK_URL="https://api.deepseek.com/v1/chat/completions"
 if [ -z "$DEEPSEEK_API_KEY" ]; then
     echo "错误：DEEPSEEK_API_KEY 环境变量未配置！"
     echo "请在 ~/.bashrc 中添加：export DEEPSEEK_API_KEY='sk-xxxxx'"
+    echo "或在 /var/www/ai-daily/.env 文件中配置"
     exit 1
 fi
 
