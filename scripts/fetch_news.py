@@ -126,8 +126,53 @@ OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "docs", "d
 
 # ==================== 核心功能 ====================
 
-def fetch_from_rss(feed_info):
-    """从 RSS 源抓取新闻"""
+def fetch_from_rss(feed_info, target_date):
+    """从 RSS 源抓取指定日期的新闻"""
+    print(f"📡 抓取 RSS: {feed_info['name']}")
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"
+    }
+    
+    try:
+        response = requests.get(feed_info['url'], headers=headers, timeout=10)
+        feed = feedparser.parse(response.content)
+    except Exception as e:
+        print(f"  ❌ 请求失败：{e}")
+        return []
+    
+    news_list = []
+    
+    for entry in feed.entries:
+        # 解析发布时间
+        published_at = entry.get('published', datetime.now().isoformat())
+        
+        # 检查是否是目标日期的新闻
+        if not is_same_date(published_at, target_date):
+            continue
+        
+        news = {
+            "title": entry.title,
+            "url": entry.link,
+            "content": entry.get('summary', entry.title),
+            "published_at": published_at,
+            "source_name": feed_info['name'],
+            "source_type": feed_info['type'],
+            "language": feed_info['language']
+        }
+        news_list.append(news)
+        
+        if len(news_list) >= 5:  # 每个源最多抓取 5 条
+            break
+    
+    print(f"  ✅ 获取 {len(news_list)} 条新闻")
+    return news_list
+
+
+def fetch_from_rss_latest(feed_info):
+    """从 RSS 源抓取最新的新闻（不过滤日期）"""
     print(f"📡 抓取 RSS: {feed_info['name']}")
     
     headers = {
@@ -161,7 +206,7 @@ def fetch_from_rss(feed_info):
     return news_list
 
 
-def fetch_from_api(source_info):
+def fetch_from_api(source_info, target_date):
     """从 API 接口抓取新闻"""
     print(f"🔌 抓取 API: {source_info['name']}")
     
@@ -182,7 +227,12 @@ def fetch_from_api(source_info):
     
     # 解析 API 返回的文章数据
     articles = data.get('articles', [])
-    for article in articles[:5]:  # 每个源抓取最新的 5 条
+    for article in articles:
+        # 检查是否是目标日期的新闻
+        published_at = article.get('publishedAt', '')
+        if not is_same_date(published_at, target_date):
+            continue
+        
         # 构建文章链接
         article_url = f"https://www.jiqizhixin.com/articles/{article.get('slug', '')}"
         
@@ -190,15 +240,48 @@ def fetch_from_api(source_info):
             "title": article.get('title', ''),
             "url": article_url,
             "content": article.get('content', article.get('title', '')),
-            "published_at": article.get('publishedAt', datetime.now().isoformat()),
+            "published_at": published_at,
             "source_name": source_info['name'],
             "source_type": source_info['type'],
             "language": source_info['language']
         }
         news_list.append(news)
+        
+        if len(news_list) >= 5:  # 每个源最多抓取 5 条
+            break
     
     print(f"  ✅ 获取 {len(news_list)} 条新闻")
     return news_list
+
+
+def is_same_date(date_str, target_date):
+    """检查日期字符串是否与目标日期匹配"""
+    try:
+        # 先清理常见的时区后缀
+        clean_date = date_str.replace(' GMT', '').replace(' UTC', '').strip()
+        
+        # 尝试解析多种日期格式
+        date_formats = [
+            "%Y-%m-%d",
+            "%Y/%m/%d %H:%M",
+            "%a, %d %b %Y %H:%M:%S",  # 不含时区
+            "%Y-%m-%dT%H:%M:%S.%f",
+            "%Y-%m-%dT%H:%M:%S"
+        ]
+        
+        for fmt in date_formats:
+            try:
+                parsed_date = datetime.strptime(clean_date[:len(fmt)], fmt)
+                result = parsed_date.strftime("%Y-%m-%d") == target_date
+                return result
+            except (ValueError, IndexError):
+                continue
+        
+        # 如果都失败，检查字符串是否包含目标日期
+        return target_date in date_str
+        
+    except Exception:
+        return False
 
 
 def generate_summary_with_deepseek(content, language="zh"):
@@ -367,24 +450,28 @@ def main():
     """主函数：执行完整的采集流程"""
     print("🚀 开始采集 AI 每日新闻...\n")
     
+    # 获取目标日期（默认为今天）
+    target_date = datetime.now().strftime("%Y-%m-%d")
+    print(f"📅 采集日期：{target_date}\n")
+    
     all_news = []
     
-    # 1. 从 RSS 源抓取
+    # 1. 从 RSS 源抓取（不过滤日期，抓取最新新闻）
     print("=" * 50)
     print("📡 阶段 1: RSS 抓取")
     print("=" * 50)
     
     for feed_info in RSS_FEEDS:
-        news = fetch_from_rss(feed_info)
+        news = fetch_from_rss_latest(feed_info)
         all_news.extend(news)
     
-    # 2. 从 API 抓取
+    # 2. 从 API 抓取（过滤日期）
     print("\n" + "=" * 50)
     print("🔌 阶段 2: API 抓取")
     print("=" * 50)
     
     for source_info in API_SOURCES:
-        news = fetch_from_api(source_info)
+        news = fetch_from_api(source_info, target_date)
         all_news.extend(news)
     
     # 3. 去重
@@ -400,8 +487,7 @@ def main():
     print("📝 阶段 4: 生成摘要并保存")
     print("=" * 50)
     
-    date = datetime.now().strftime("%Y-%m-%d")
-    save_daily_data(unique_news, date)
+    save_daily_data(unique_news, target_date)
     
     # 5. 完成
     print("\n" + "=" * 50)
@@ -409,7 +495,7 @@ def main():
     print("=" * 50)
     print(f"\n📊 统计：")
     print(f"   - 共采集：{len(unique_news)} 条新闻")
-    print(f"   - 日期：{date}")
+    print(f"   - 日期：{target_date}")
     print(f"   - 本地预览：http://localhost:8000/docs/")
 
 
