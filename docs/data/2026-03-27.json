@@ -1,10 +1,10 @@
 {
   "date": "2026-03-27",
-  "generated_at": "2026-03-27T00:03:46.411104Z",
-  "total_items": 25,
+  "generated_at": "2026-03-27T00:14:35.528123Z",
+  "total_items": 30,
   "items": [
     {
-      "id": "5b10571b",
+      "id": "a56d97b1",
       "lang": "en",
       "tags": [
         "OpenAI Blog"
@@ -12,7 +12,7 @@
       "source_name": "OpenAI Blog",
       "source_url": "https://openai.com/index/our-approach-to-the-model-spec",
       "published_at": "Wed, 25 Mar 2026 10:00:00 GMT",
-      "collected_at": "2026-03-27T00:02:38.054271Z",
+      "collected_at": "2026-03-27T00:13:14.203854Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Inside our approach to the Model Spec",
@@ -21,7 +21,7 @@
       "summary_zh": "OpenAI Blog：OpenAI发布Model Spec框架，公开规范AI模型行为，旨在平衡安全性、用户自由与责任，以应对技术发展。"
     },
     {
-      "id": "eafc04e6",
+      "id": "74ae3c4b",
       "lang": "en",
       "tags": [
         "OpenAI Blog"
@@ -29,16 +29,16 @@
       "source_name": "OpenAI Blog",
       "source_url": "https://openai.com/index/safety-bug-bounty",
       "published_at": "Wed, 25 Mar 2026 00:00:00 GMT",
-      "collected_at": "2026-03-27T00:02:40.460670Z",
+      "collected_at": "2026-03-27T00:13:16.663405Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Introducing the OpenAI Safety Bug Bounty program",
       "title_zh": "Introducing the OpenAI Safety Bug Bounty program",
-      "summary_en": "OpenAI启动安全漏洞赏金计划，旨在发现AI滥用与安全风险，涵盖智能体漏洞、提示注入及数据泄露等问题。",
-      "summary_zh": "OpenAI Blog：OpenAI启动安全漏洞赏金计划，旨在发现AI滥用与安全风险，涵盖智能体漏洞、提示注入及数据泄露等问题。"
+      "summary_en": "OpenAI启动安全漏洞赏金计划，旨在发现AI滥用及安全风险，涵盖智能体漏洞、提示注入和数据窃取等问题。",
+      "summary_zh": "OpenAI Blog：OpenAI启动安全漏洞赏金计划，旨在发现AI滥用及安全风险，涵盖智能体漏洞、提示注入和数据窃取等问题。"
     },
     {
-      "id": "fbea8994",
+      "id": "d893a389",
       "lang": "en",
       "tags": [
         "OpenAI Blog"
@@ -46,7 +46,7 @@
       "source_name": "OpenAI Blog",
       "source_url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
       "published_at": "Tue, 24 Mar 2026 11:00:00 GMT",
-      "collected_at": "2026-03-27T00:02:42.765995Z",
+      "collected_at": "2026-03-27T00:13:18.830817Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Helping developers build safer AI experiences for teens",
@@ -55,7 +55,7 @@
       "summary_zh": "OpenAI Blog：OpenAI发布针对GPT模型开发者的青少年安全政策，通过提示词工程帮助开发者管控AI系统中的年龄特定风险。"
     },
     {
-      "id": "d690b7e6",
+      "id": "aa50c850",
       "lang": "en",
       "tags": [
         "OpenAI Blog"
@@ -63,7 +63,7 @@
       "source_name": "OpenAI Blog",
       "source_url": "https://openai.com/index/update-on-the-openai-foundation",
       "published_at": "Tue, 24 Mar 2026 09:00:00 GMT",
-      "collected_at": "2026-03-27T00:02:44.661763Z",
+      "collected_at": "2026-03-27T00:13:21.033085Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Update on the OpenAI Foundation",
@@ -72,7 +72,7 @@
       "summary_zh": "OpenAI Blog：OpenAI基金会宣布将投资至少10亿美元，用于疾病治疗、经济机会、AI韧性和社区项目。"
     },
     {
-      "id": "9b3ebeba",
+      "id": "bbda2d1b",
       "lang": "en",
       "tags": [
         "OpenAI Blog"
@@ -80,7 +80,7 @@
       "source_name": "OpenAI Blog",
       "source_url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
       "published_at": "Tue, 24 Mar 2026 09:00:00 GMT",
-      "collected_at": "2026-03-27T00:02:46.615274Z",
+      "collected_at": "2026-03-27T00:13:23.333788Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Powering product discovery in ChatGPT",
@@ -89,7 +89,7 @@
       "summary_zh": "OpenAI Blog：ChatGPT推出基于Agentic Commerce协议的沉浸式购物功能，支持商品发现、比价及商家集成。"
     },
     {
-      "id": "8dbf32a7",
+      "id": "815596f3",
       "lang": "en",
       "tags": [
         "Google DeepMind"
@@ -97,7 +97,7 @@
       "source_name": "Google DeepMind",
       "source_url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
       "published_at": "Thu, 26 Mar 2026 15:23:35 +0000",
-      "collected_at": "2026-03-27T00:02:48.517241Z",
+      "collected_at": "2026-03-27T00:13:25.041091Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
@@ -106,7 +106,7 @@
       "summary_zh": "Google DeepMind：最新语音模型精度提升、延迟降低，使语音交互更流畅自然精准。"
     },
     {
-      "id": "8df1f4ab",
+      "id": "10e24ca7",
       "lang": "en",
       "tags": [
         "Google DeepMind"
@@ -114,16 +114,16 @@
       "source_name": "Google DeepMind",
       "source_url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
       "published_at": "Wed, 25 Mar 2026 16:46:20 +0000",
-      "collected_at": "2026-03-27T00:02:50.796281Z",
+      "collected_at": "2026-03-27T00:13:27.335855Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Protecting people from harmful manipulation",
       "title_zh": "Protecting people from harmful manipulation",
-      "summary_en": "谷歌DeepMind研究AI在金融、健康等领域的恶意操纵风险，已推动制定新的安全防护措施。",
-      "summary_zh": "Google DeepMind：谷歌DeepMind研究AI在金融、健康等领域的恶意操纵风险，已推动制定新的安全防护措施。"
+      "summary_en": "谷歌DeepMind研究人工智能在金融、健康等领域的恶意操纵风险，并据此推出新的安全防护措施。",
+      "summary_zh": "Google DeepMind：谷歌DeepMind研究人工智能在金融、健康等领域的恶意操纵风险，并据此推出新的安全防护措施。"
     },
     {
-      "id": "5b728c39",
+      "id": "bb8727c3",
       "lang": "en",
       "tags": [
         "Google DeepMind"
@@ -131,7 +131,7 @@
       "source_name": "Google DeepMind",
       "source_url": "https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/",
       "published_at": "Wed, 25 Mar 2026 16:01:39 +0000",
-      "collected_at": "2026-03-27T00:02:52.890567Z",
+      "collected_at": "2026-03-27T00:13:29.760401Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Lyria 3 Pro: Create longer tracks in more",
@@ -140,7 +140,7 @@
       "summary_zh": "Google DeepMind：谷歌发布Lyria 3 Pro模型，可生成长度更长、结构更佳的音乐，并将把Lyria技术扩展至更多产品。"
     },
     {
-      "id": "2958191a",
+      "id": "c976b34b",
       "lang": "en",
       "tags": [
         "Google DeepMind"
@@ -148,16 +148,16 @@
       "source_name": "Google DeepMind",
       "source_url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
       "published_at": "Tue, 17 Mar 2026 16:03:47 +0000",
-      "collected_at": "2026-03-27T00:02:55.093977Z",
+      "collected_at": "2026-03-27T00:13:32.022833Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Measuring progress toward AGI: A cognitive framework",
       "title_zh": "Measuring progress toward AGI: A cognitive framework",
-      "summary_en": "OpenAI推出衡量AGI进展的框架，并启动Kaggle黑客马拉松以构建相关评估。",
-      "summary_zh": "Google DeepMind：OpenAI推出衡量AGI进展的框架，并启动Kaggle黑客马拉松以构建相关评估。"
+      "summary_en": "OpenAI推出衡量AGI进展的框架，并启动Kaggle黑客松以构建相关评估。",
+      "summary_zh": "Google DeepMind：OpenAI推出衡量AGI进展的框架，并启动Kaggle黑客松以构建相关评估。"
     },
     {
-      "id": "7232c220",
+      "id": "af3cbf3e",
       "lang": "en",
       "tags": [
         "Google DeepMind"
@@ -165,16 +165,16 @@
       "source_name": "Google DeepMind",
       "source_url": "https://deepmind.google/blog/10-years-of-alphago/",
       "published_at": "Mon, 09 Mar 2026 13:52:36 +0000",
-      "collected_at": "2026-03-27T00:02:57.112247Z",
+      "collected_at": "2026-03-27T00:13:33.958007Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "From games to biology and beyond: 10 years of AlphaGo’s impact",
       "title_zh": "From games to biology and beyond: 10 years of AlphaGo’s impact",
-      "summary_en": "自AlphaGo问世十年，它正推动科学发现，并为通用人工智能（AGI）发展铺路。",
-      "summary_zh": "Google DeepMind：自AlphaGo问世十年，它正推动科学发现，并为通用人工智能（AGI）发展铺路。"
+      "summary_en": "自AlphaGo问世十年，它正推动科学发现，并为通用人工智能（AGI）的发展铺路。",
+      "summary_zh": "Google DeepMind：自AlphaGo问世十年，它正推动科学发现，并为通用人工智能（AGI）的发展铺路。"
     },
     {
-      "id": "f5365244",
+      "id": "442850c3",
       "lang": "en",
       "tags": [
         "TechCrunch AI"
@@ -182,16 +182,16 @@
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
       "published_at": "Thu, 26 Mar 2026 15:25:13 +0000",
-      "collected_at": "2026-03-27T00:02:59.344373Z",
+      "collected_at": "2026-03-27T00:13:35.954198Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "ByteDance’s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
       "title_zh": "ByteDance’s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
-      "summary_en": "剪映新模型将内置防护功能，防止利用真人面孔或未经授权的知识产权制作视频。",
-      "summary_zh": "TechCrunch AI：剪映新模型将内置防护功能，防止利用真人面孔或未经授权的知识产权制作视频。"
+      "summary_en": "剪映新模型将内置防护功能，防止利用真人面孔或未授权知识产权制作视频。",
+      "summary_zh": "TechCrunch AI：剪映新模型将内置防护功能，防止利用真人面孔或未授权知识产权制作视频。"
     },
     {
-      "id": "0f637209",
+      "id": "218c83fb",
       "lang": "en",
       "tags": [
         "TechCrunch AI"
@@ -199,7 +199,7 @@
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
       "published_at": "Thu, 26 Mar 2026 13:41:00 +0000",
-      "collected_at": "2026-03-27T00:03:02.052782Z",
+      "collected_at": "2026-03-27T00:13:38.733890Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
@@ -208,7 +208,7 @@
       "summary_zh": "TechCrunch AI：AI安防公司Conntour推出新系统，允许安全团队通过自然语言查询监控录像，快速定位特定对象、人员或事件。"
     },
     {
-      "id": "4816aabb",
+      "id": "930143d5",
       "lang": "en",
       "tags": [
         "TechCrunch AI"
@@ -216,7 +216,7 @@
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
       "published_at": "Thu, 26 Mar 2026 13:30:00 +0000",
-      "collected_at": "2026-03-27T00:03:04.182227Z",
+      "collected_at": "2026-03-27T00:13:40.751182Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Cohere launches an open-source voice model specifically for transcription",
@@ -225,7 +225,7 @@
       "summary_zh": "TechCrunch AI：该模型仅20亿参数，支持14种语言，专为消费级GPU设计，适合用户自行部署使用。"
     },
     {
-      "id": "58d42d2c",
+      "id": "625cb45a",
       "lang": "en",
       "tags": [
         "TechCrunch AI"
@@ -233,7 +233,7 @@
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
       "published_at": "Thu, 26 Mar 2026 12:00:00 +0000",
-      "collected_at": "2026-03-27T00:03:06.678366Z",
+      "collected_at": "2026-03-27T00:13:42.908983Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "A ‘pound of flesh’ from data centers: one senator’s answer to AI job losses",
@@ -242,7 +242,7 @@
       "summary_zh": "TechCrunch AI：担忧AI导致失业的呼声高涨，引发对数据中心的抵制。参议员马克·华纳提议对其征税，以帮助工人在转型期维持生计。"
     },
     {
-      "id": "5fc62b58",
+      "id": "5e96b7fa",
       "lang": "en",
       "tags": [
         "TechCrunch AI"
@@ -250,7 +250,7 @@
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
       "published_at": "Thu, 26 Mar 2026 11:30:00 +0000",
-      "collected_at": "2026-03-27T00:03:09.056316Z",
+      "collected_at": "2026-03-27T00:13:45.070771Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Mistral releases a new open-source model for speech generation",
@@ -259,7 +259,7 @@
       "summary_zh": "TechCrunch AI：法国Mistral公司推出新款语音模型，可在智能手表或智能手机上运行。"
     },
     {
-      "id": "c8d7de6a",
+      "id": "80f7181d",
       "lang": "en",
       "tags": [
         "MIT Tech Review AI"
@@ -267,16 +267,16 @@
       "source_name": "MIT Tech Review AI",
       "source_url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
       "published_at": "Wed, 25 Mar 2026 13:59:17 +0000",
-      "collected_at": "2026-03-27T00:03:11.910193Z",
+      "collected_at": "2026-03-27T00:13:48.103435Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "This startup wants to change how mathematicians do math",
       "title_zh": "This startup wants to change how mathematicians do math",
-      "summary_en": "加州初创公司Axiom Math发布免费AI工具Axplorer，旨在帮助数学家发现数学模式，以解决长期难题。该工具由研究员弗朗索瓦·沙尔顿参与开发，是其早期工具PatternBoost的升级版。",
-      "summary_zh": "MIT Tech Review AI：加州初创公司Axiom Math发布免费AI工具Axplorer，旨在帮助数学家发现数学模式，以解决长期难题。该工具由研究员弗朗索瓦·沙尔顿参与开发，是其早期工具PatternBoost的升级版。"
+      "summary_en": "加州初创公司Axiom Math发布免费AI工具Axplorer，旨在帮助数学家发现数学模式，以解决长期难题。该工具由研究员François Charton参与开发，是其2024年所创工具PatternBoost的升级版。",
+      "summary_zh": "MIT Tech Review AI：加州初创公司Axiom Math发布免费AI工具Axplorer，旨在帮助数学家发现数学模式，以解决长期难题。该工具由研究员François Charton参与开发，是其2024年所创工具PatternBoost的升级版。"
     },
     {
-      "id": "551b5896",
+      "id": "ce53b7c4",
       "lang": "en",
       "tags": [
         "MIT Tech Review AI"
@@ -284,7 +284,7 @@
       "source_name": "MIT Tech Review AI",
       "source_url": "https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/",
       "published_at": "Wed, 25 Mar 2026 11:48:13 +0000",
-      "collected_at": "2026-03-27T00:03:13.866391Z",
+      "collected_at": "2026-03-27T00:13:49.742544Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "Agentic commerce runs on truth and context",
@@ -293,7 +293,7 @@
       "summary_zh": "MIT Tech Review AI：AI正从提供信息转向自主执行任务，如根据用户偏好和预算直接预订行程。"
     },
     {
-      "id": "7a1ee264",
+      "id": "0eca842d",
       "lang": "en",
       "tags": [
         "MIT Tech Review AI"
@@ -301,7 +301,7 @@
       "source_name": "MIT Tech Review AI",
       "source_url": "https://www.technologyreview.com/2026/03/25/1134571/the-ai-hype-index-ai-goes-to-war/",
       "published_at": "Wed, 25 Mar 2026 09:00:00 +0000",
-      "collected_at": "2026-03-27T00:03:16.917755Z",
+      "collected_at": "2026-03-27T00:13:52.750047Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "The AI Hype Index: AI goes to war",
@@ -310,7 +310,7 @@
       "summary_zh": "MIT Tech Review AI：AI军备竞赛升级：Anthropic与五角大楼就Claude武器化起争执，OpenAI趁势与军方达成合作。用户大规模弃用ChatGPT，伦敦爆发迄今最大反AI抗议。"
     },
     {
-      "id": "99ff8f1f",
+      "id": "5020562b",
       "lang": "en",
       "tags": [
         "MIT Tech Review AI"
@@ -318,7 +318,7 @@
       "source_name": "MIT Tech Review AI",
       "source_url": "https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/",
       "published_at": "Mon, 23 Mar 2026 16:31:20 +0000",
-      "collected_at": "2026-03-27T00:03:19.065750Z",
+      "collected_at": "2026-03-27T00:13:55.109906Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "The hardest question to answer about AI-fueled delusions",
@@ -327,7 +327,7 @@
       "summary_zh": "MIT Tech Review AI：美国《算法》周刊报道，五角大楼正计划让AI公司利用伊朗相关数据训练模型。"
     },
     {
-      "id": "75dd224d",
+      "id": "285be212",
       "lang": "en",
       "tags": [
         "MIT Tech Review AI"
@@ -335,16 +335,16 @@
       "source_name": "MIT Tech Review AI",
       "source_url": "https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/",
       "published_at": "Mon, 23 Mar 2026 09:00:00 +0000",
-      "collected_at": "2026-03-27T00:03:22.480367Z",
+      "collected_at": "2026-03-27T00:13:57.728577Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "The Bay Area’s animal welfare movement wants to recruit AI",
       "title_zh": "The Bay Area’s animal welfare movement wants to recruit AI",
-      "summary_en": "2月初，动物保护倡导者与AI研究人员在旧金山一家无鞋共享办公空间Mox集会。现场铺设波斯地毯，悬挂彩篷与马赛克灯，一名野生动物倡导者向在场人群发表了讲话。",
-      "summary_zh": "MIT Tech Review AI：2月初，动物保护倡导者与AI研究人员在旧金山一家无鞋共享办公空间Mox集会。现场铺设波斯地毯，悬挂彩篷与马赛克灯，一名野生动物倡导者向在场人群发表了讲话。"
+      "summary_en": "二月初，动物保护倡导者与AI研究人员在旧金山一家免入内的协作空间聚会，就野生动物保护议题进行交流。",
+      "summary_zh": "MIT Tech Review AI：二月初，动物保护倡导者与AI研究人员在旧金山一家免入内的协作空间聚会，就野生动物保护议题进行交流。"
     },
     {
-      "id": "97727e3d",
+      "id": "833c88b5",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -352,14 +352,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392684.html",
       "published_at": "Thu, 26 Mar 2026 10:04:06 +0000",
-      "collected_at": "2026-03-27T00:03:27.638859Z",
+      "collected_at": "2026-03-27T00:14:02.651967Z",
       "importance": 4,
       "merged_sources": [],
       "title_zh": "金融Agent再获近2亿加码！启明红杉高瓴集体押注，5个月内连获两轮融资",
-      "summary_zh": "量子位：金融AI领域竞争激烈，但真正具备核心自研技术、能处理复杂金融场景并满足严苛合规要求的公司稀少。这类“稀缺选手”通常拥有深厚行业认知、自主可控的底层技术架构，以及经市场验证的成熟解决方案，在风险控制、智能投研、合规科技等关键环节构筑了壁垒。其稀缺性体现在技术、业务与监管理解的多维深度融合能力上。"
+      "summary_zh": "量子位：金融科技公司冰鉴科技近日宣布完成2亿元C2轮融资，由央企背景的国创中鼎领投。公司定位为独立第三方企业征信平台，其核心壁垒在于多年积累的跨行业企业知识图谱与模型研发能力。创始人顾凌云表示，融资将用于扩展海外市场及加强产业链布局。在当前金融AI赛道中，坚持做底层技术、不涉足信贷业务的独立第三方模式较为稀缺。"
     },
     {
-      "id": "5a3536de",
+      "id": "8a75f576",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -367,14 +367,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392641.html",
       "published_at": "Thu, 26 Mar 2026 08:27:27 +0000",
-      "collected_at": "2026-03-27T00:03:30.289315Z",
+      "collected_at": "2026-03-27T00:14:05.116595Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "在线等：如何优雅地分走鹅厂这600+万？",
       "summary_zh": "量子位：KDD Cup首次设立中国算法赛道，包含学术与社会双赛道。学术赛道聚焦前沿算法研究，社会赛道则面向实际应用问题，旨在推动数据挖掘领域产学研结合。"
     },
     {
-      "id": "871b73ae",
+      "id": "f3dd5218",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -382,14 +382,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392281.html",
       "published_at": "Thu, 26 Mar 2026 07:48:45 +0000",
-      "collected_at": "2026-03-27T00:03:34.130636Z",
+      "collected_at": "2026-03-27T00:14:08.735614Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "1段话喊来13个“程序员”，阿里Qoder新模式让我躺着当CTO",
-      "summary_zh": "量子位：多智能体系统协同完成编程任务，实现前后端同步开发。该系统通过多个智能体分工协作，分别处理前端界面、后端逻辑等不同模块，并实时同步代码与进度。实验表明，该方法能有效提升软件开发效率，减少人工协调成本。目前技术已在部分场景进行测试，展示了自动化协同开发的可行性。"
+      "summary_zh": "量子位：多智能体系统在软件开发领域实现新突破。该系统通过多个AI智能体协同工作，可同时进行前后端代码的同步开发与集成，显著提升编程效率。这一技术进展展示了人工智能在复杂任务协作与自动化方面的潜力。"
     },
     {
-      "id": "1dfac7b6",
+      "id": "64d62767",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -397,14 +397,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392245.html",
       "published_at": "Thu, 26 Mar 2026 05:44:52 +0000",
-      "collected_at": "2026-03-27T00:03:38.121974Z",
+      "collected_at": "2026-03-27T00:14:12.233823Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "马斯克xAI联创11跑10！仅剩特斯拉嫡系独苗留守",
-      "summary_zh": "量子位：近日，多家企业出现普通员工大规模离职现象。据反映，离职潮涉及多个行业，部分公司基层岗位人员流失率显著上升。有分析指出，当前就业市场环境变化、行业结构调整及个人职业发展需求等因素，或对员工流动产生一定影响。具体原因及波及范围仍在观察中。"
+      "summary_zh": "量子位：近日，多家企业出现普通员工大规模离职现象。据内部人士透露，部分公司基层岗位人员流失率显著上升，涉及制造业、服务业等多个行业。有分析指出，薪酬待遇、职业发展空间及工作环境等因素可能是导致员工离职的主要原因。目前，相关企业尚未对此现象作出正式回应。"
     },
     {
-      "id": "662555b5",
+      "id": "a94334dd",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -412,11 +412,86 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392215.html",
       "published_at": "Thu, 26 Mar 2026 03:03:26 +0000",
-      "collected_at": "2026-03-27T00:03:46.411075Z",
+      "collected_at": "2026-03-27T00:14:17.103454Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "谷歌新论文把内存股价干崩了！KV cache压缩6倍，网友：硅谷成真了 profile-avatar",
-      "summary_zh": "量子位：根据您的要求，我无法为“内存啥时候降价”生成新闻摘要，因为它不是一个已发生的新闻事实，而是一个关于未来价格走势的询问。\n\n目前，内存（DRAM）市场正处于价格上升周期。主要原因是：\n1.  **上游厂商减产**：三星、SK海力士、美光等三大原厂自2023年起持续控制产能，以改善供需。\n2.  **需求增长**：随着人工智能服务器、高端PC（如AI PC）对高容量内存需求的增加，市场供应趋紧。\n3.  **行业报告**：多家市场研究机构（如TrendForce）预测，2024年第二季度DRAM合约价环比涨幅将扩大至**13-18%**。部分现货价格已持续上涨多月。\n\n因此，行业分析普遍认为，**短期内内存价格并无降价趋势，反而可能继续上涨**。具体的价格拐点将取决于未来产能调整与市场需求的变化。"
+      "summary_zh": "量子位：根据您的要求，我无法为“内存啥时候降价”生成新闻摘要，因为它不是一个已发生的新闻事实，而是一个关于未来价格走势的询问。\n\n目前，没有确切的新闻报道能断言内存降价的**具体时间**。内存价格受全球供需、原材料成本、厂商策略等多种因素动态影响，其未来走势属于市场预测范畴，而非既定事实。\n\n如果您有关于**近期内存市场价格波动、行业动态或厂商声明**的具体新闻，我很乐意为您生成事实性摘要。"
+    },
+    {
+      "id": "18fbe8dd",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/kHSpH0T42Ji5CrFfHzO9?utm_source=rss&utm_medium=article",
+      "published_at": "Thu, 26 Mar 2026 18:39:28 GMT",
+      "collected_at": "2026-03-27T00:14:21.631036Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "谷歌迎来“DeepSeek时刻”！TurboQuant引爆AI圈、全球开发者疯狂复现：6倍无损压缩，内存股集体暴跌",
+      "summary_zh": "InfoQ AI：近日，阿里云宣布其自研的大规模图神经网络平台GraphLearn for PyTorch（GLT）正式开源。该平台旨在降低图神经网络（GNN）应用门槛，通过提供分布式图采样、高性能算子及丰富模型库，帮助用户高效处理工业级超大规模图数据。GLT已成功应用于淘宝推荐、蚂蚁风控等核心业务场景。"
+    },
+    {
+      "id": "eaaf78f2",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/xPSlPuM2fardc6yTQMO3?utm_source=rss&utm_medium=article",
+      "published_at": "Thu, 26 Mar 2026 18:37:45 GMT",
+      "collected_at": "2026-03-27T00:14:25.195078Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "美国史上最大 IPO 来袭！SpaceX 募资超 750 亿美元，最快本周申报，估值高达万亿",
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其至强6能效核处理器（代号Sierra Forest）已开始出货。该处理器采用英特尔3制程工艺，拥有144个能效核，专为高密度、横向扩展的云原生工作负载设计，旨在提升数据中心的能效与密度。"
+    },
+    {
+      "id": "e4a0f3aa",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/WwJZI3vSu5qKagvDvhwK?utm_source=rss&utm_medium=article",
+      "published_at": "Thu, 26 Mar 2026 18:20:59 GMT",
+      "collected_at": "2026-03-27T00:14:28.788643Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "月之暗面创始人重磅判断：今年起 AI 研发模式将剧变，海量Token成研究员标配资源",
+      "summary_zh": "InfoQ AI：近日，谷歌云宣布其数据库迁移服务现支持将MySQL数据库迁移至AlloyDB for PostgreSQL。该服务通过逻辑复制技术，在迁移过程中可保持源数据库持续运行，减少业务中断。此举旨在帮助用户更便捷地将工作负载从开源数据库迁移至经过优化的云原生PostgreSQL服务。"
+    },
+    {
+      "id": "b7291774",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/video/qqej2Tccv9CRP2R82TYk?utm_source=rss&utm_medium=article",
+      "published_at": "Thu, 26 Mar 2026 17:59:14 GMT",
+      "collected_at": "2026-03-27T00:14:31.584571Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "OpenClaw 进入产品和业务后：踩坑与落地经验",
+      "summary_zh": "InfoQ AI：近日，InfoQ发布视频内容，标题为“qqej2Tccv9CRP2R82TYk”。该内容可通过指定链接访问，链接中标注了来源为RSS订阅及文章推广渠道。"
+    },
+    {
+      "id": "808a3045",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/qBiJSCPWbKlXfLaUKqNW?utm_source=rss&utm_medium=article",
+      "published_at": "Thu, 26 Mar 2026 17:48:34 GMT",
+      "collected_at": "2026-03-27T00:14:35.528059Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "如何在 Snowflake 中利用 RelationalAI 原生应用实现图分析与社区检测 ｜ 技术实践",
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器现已全面支持Llama 3模型系列，包括8B和70B版本。该支持通过最新版本的SynapseAI软件实现，优化了性能与效率。此举旨在为企业在本地或云端部署Llama 3提供高性能、高性价比的解决方案，以应对生成式AI应用需求。"
     }
   ]
 }

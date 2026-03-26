@@ -105,6 +105,12 @@ RSS_FEEDS = [
         "url": "https://www.jiqizhixin.com/rss",
         "type": "media_cn",
         "language": "zh"
+    },
+    {
+        "name": "InfoQ AI",
+        "url": "https://www.infoq.cn/feed.xml",
+        "type": "media_cn",
+        "language": "zh"
     }
 ]
 
