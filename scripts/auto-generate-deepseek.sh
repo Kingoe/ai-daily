@@ -12,7 +12,8 @@ DATE=$(date +%Y-%m-%d)
 
 # ⚠️ 安全提示：不要在这里硬编码 API Key！
 # 从环境变量读取 API Key（在服务器上配置）
-DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-}"
+# 本地测试可以临时配置
+DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-sk-0b37558bab504e16bade399f8453574b}"
 DEEPSEEK_URL="https://api.deepseek.com/v1/chat/completions"
 
 # 检查 API Key 是否配置

@@ -1,55 +1,264 @@
 {
-  "latest_date": "2026-03-25",
-  "updated_at": "2026-03-26T08:00:00Z",
-  "dates": ["2026-03-25"],
+  "latest_date": "2026-03-26",
+  "updated_at": "2026-03-26T22:48:06.611181Z",
+  "dates": [
+    "2026-03-26"
+  ],
   "items": [
     {
-      "id": "a1b2c3d4",
+      "id": "cf857401",
       "lang": "en",
-      "title_en": "OpenAI Releases GPT-5 with Revolutionary Reasoning Capabilities",
-      "title_zh": "OpenAI 发布 GPT-5，具备革命性推理能力",
-      "summary_zh": "OpenAI：OpenAI 正式发布 GPT-5，在逻辑推理、数学计算和代码生成方面实现重大突破。新模型采用混合架构，支持 100 万 tokens 上下文窗口，在 MMLU 基准测试中达到 92.5 分，超越人类专家水平。",
-      "summary_en": "OpenAI: OpenAI officially releases GPT-5, achieving major breakthroughs in logical reasoning, mathematical computation, and code generation. The new model uses a hybrid architecture, supports 1M token context window, and scores 92.5 on MMLU benchmark, surpassing human expert level.",
-      "tags": ["模型发布", "OpenAI"],
-      "source_name": "OpenAI",
-      "source_url": "https://openai.com/news/gpt-5",
-      "published_at": "2026-03-25T18:00:00Z",
-      "collected_at": "2026-03-26T08:00:00Z",
-      "importance": 5,
-      "merged_sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/gpt-5-release"
-        }
-      ]
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/our-approach-to-the-model-spec",
+      "published_at": "Wed, 25 Mar 2026 10:00:00 GMT",
+      "collected_at": "2026-03-26T22:47:32.473680Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "Inside our approach to the Model Spec",
+      "title_zh": "Inside our approach to the Model Spec",
+      "summary_en": "OpenAI发布Model Spec框架，公开规范AI模型行为准则，旨在平衡安全性、用户自由与责任，以应对技术发展挑战。",
+      "summary_zh": "OpenAI Blog：OpenAI发布Model Spec框架，公开规范AI模型行为准则，旨在平衡安全性、用户自由与责任，以应对技术发展挑战。"
     },
     {
-      "id": "e5f6g7h8",
-      "lang": "zh",
-      "title_zh": "昆仑万维 AI 音乐模型 Mureka V8 登顶国际榜单",
-      "summary_zh": "量子位：昆仑万维旗下 AI 音乐模型 Mureka V8 在 Artificial Analysis 音乐模型榜单中登顶，超越 Suno V4.5、Udio v1.5 等国际主流模型，实现人声（vocal）与器乐（instrument）双项第一。测试显示其在低复杂度提示词下也具备较强的理解和生成能力。",
-      "tags": ["产品发布", "多模态评测基准"],
-      "source_name": "量子位",
-      "source_url": "https://www.qbitai.com/mureka-v8",
-      "published_at": "2026-03-25T08:00:00Z",
-      "collected_at": "2026-03-26T08:00:00Z",
+      "id": "71c0ff1a",
+      "lang": "en",
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/safety-bug-bounty",
+      "published_at": "Wed, 25 Mar 2026 00:00:00 GMT",
+      "collected_at": "2026-03-26T22:47:34.976664Z",
       "importance": 4,
-      "merged_sources": []
+      "merged_sources": [],
+      "title_en": "Introducing the OpenAI Safety Bug Bounty program",
+      "title_zh": "Introducing the OpenAI Safety Bug Bounty program",
+      "summary_en": "OpenAI启动安全漏洞赏金计划，旨在发现AI滥用及安全风险，涵盖智能体漏洞、提示注入和数据窃取等问题。",
+      "summary_zh": "OpenAI Blog：OpenAI启动安全漏洞赏金计划，旨在发现AI滥用及安全风险，涵盖智能体漏洞、提示注入和数据窃取等问题。"
     },
     {
-      "id": "i9j0k1l2",
+      "id": "837d618a",
       "lang": "en",
-      "title_en": "Anthropic Introduces Auto Mode for Claude Code",
-      "title_zh": "Anthropic 为 Claude Code 推出自动模式",
-      "summary_zh": "TechCrunch：Anthropic 为 Claude Code 推出自动模式，允许 AI 代理自主完成多步骤开发任务，减少人工审批环节。此举体现了 AI 编程工具走向更高自主性的行业趋势，但 Anthropic 仍保留安全限制以防止意外操作。",
-      "summary_en": "TechCrunch: Anthropic has launched auto mode for Claude Code, enabling the AI agent to execute multi-step development tasks with fewer manual approvals. The update reflects a broader industry trend toward more autonomous agentic coding tools, while Anthropic maintains safety guardrails.",
-      "tags": ["Agent 编程", "Anthropic"],
-      "source_name": "TechCrunch",
-      "source_url": "https://techcrunch.com/claude-code-auto",
-      "published_at": "2026-03-25T14:00:00Z",
-      "collected_at": "2026-03-26T08:00:00Z",
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "published_at": "Tue, 24 Mar 2026 11:00:00 GMT",
+      "collected_at": "2026-03-26T22:47:37.571971Z",
       "importance": 4,
-      "merged_sources": []
+      "merged_sources": [],
+      "title_en": "Helping developers build safer AI experiences for teens",
+      "title_zh": "Helping developers build safer AI experiences for teens",
+      "summary_en": "OpenAI发布针对GPT模型开发者的青少年安全政策，通过提示词工程帮助开发者管控AI系统中的年龄特定风险。",
+      "summary_zh": "OpenAI Blog：OpenAI发布针对GPT模型开发者的青少年安全政策，通过提示词工程帮助开发者管控AI系统中的年龄特定风险。"
+    },
+    {
+      "id": "434c0798",
+      "lang": "en",
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/update-on-the-openai-foundation",
+      "published_at": "Tue, 24 Mar 2026 09:00:00 GMT",
+      "collected_at": "2026-03-26T22:47:39.583921Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "Update on the OpenAI Foundation",
+      "title_zh": "Update on the OpenAI Foundation",
+      "summary_en": "OpenAI基金会宣布将投资至少10亿美元，用于疾病治疗、经济机会、AI韧性和社区项目。",
+      "summary_zh": "OpenAI Blog：OpenAI基金会宣布将投资至少10亿美元，用于疾病治疗、经济机会、AI韧性和社区项目。"
+    },
+    {
+      "id": "564615c8",
+      "lang": "en",
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "published_at": "Tue, 24 Mar 2026 09:00:00 GMT",
+      "collected_at": "2026-03-26T22:47:41.525842Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "Powering product discovery in ChatGPT",
+      "title_zh": "Powering product discovery in ChatGPT",
+      "summary_en": "ChatGPT推出基于Agentic Commerce协议的沉浸式购物功能，支持商品发现、比价及商家集成。",
+      "summary_zh": "OpenAI Blog：ChatGPT推出基于Agentic Commerce协议的沉浸式购物功能，支持商品发现、比价及商家集成。"
+    },
+    {
+      "id": "ef8ab541",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
+      "published_at": "Thu, 26 Mar 2026 13:41:00 +0000",
+      "collected_at": "2026-03-26T22:47:44.076499Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
+      "title_zh": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
+      "summary_en": "AI安防公司Conntour推出新系统，允许安全团队通过自然语言查询监控录像，快速定位特定对象、人员或场景。",
+      "summary_zh": "TechCrunch AI：AI安防公司Conntour推出新系统，允许安全团队通过自然语言查询监控录像，快速定位特定对象、人员或场景。"
+    },
+    {
+      "id": "06318611",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
+      "published_at": "Thu, 26 Mar 2026 13:30:00 +0000",
+      "collected_at": "2026-03-26T22:47:46.435426Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "Cohere launches an open-source voice model specifically for transcription",
+      "title_zh": "Cohere launches an open-source voice model specifically for transcription",
+      "summary_en": "该模型仅20亿参数，轻量设计，支持消费级GPU自托管，目前兼容14种语言。",
+      "summary_zh": "TechCrunch AI：该模型仅20亿参数，轻量设计，支持消费级GPU自托管，目前兼容14种语言。"
+    },
+    {
+      "id": "7cb36dd3",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
+      "published_at": "Thu, 26 Mar 2026 12:00:00 +0000",
+      "collected_at": "2026-03-26T22:47:49.134057Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "A ‘pound of flesh’ from data centers: one senator’s answer to AI job losses",
+      "title_zh": "A ‘pound of flesh’ from data centers: one senator’s answer to AI job losses",
+      "summary_en": "担忧AI导致失业的呼声高涨，引发对数据中心的抵制。参议员马克·华纳提议对其征税，以帮助工人在转型期维持生计。",
+      "summary_zh": "TechCrunch AI：担忧AI导致失业的呼声高涨，引发对数据中心的抵制。参议员马克·华纳提议对其征税，以帮助工人在转型期维持生计。"
+    },
+    {
+      "id": "43848c19",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
+      "published_at": "Thu, 26 Mar 2026 11:30:00 +0000",
+      "collected_at": "2026-03-26T22:47:51.216455Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "Mistral releases a new open-source model for speech generation",
+      "title_zh": "Mistral releases a new open-source model for speech generation",
+      "summary_en": "法国Mistral公司推出新款语音模型，可在智能手表或智能手机上运行。",
+      "summary_zh": "TechCrunch AI：法国Mistral公司推出新款语音模型，可在智能手表或智能手机上运行。"
+    },
+    {
+      "id": "51aa049b",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/25/the-least-surprising-chapter-of-the-manus-story-is-whats-happening-right-now/",
+      "published_at": "Thu, 26 Mar 2026 02:46:48 +0000",
+      "collected_at": "2026-03-26T22:47:54.069609Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "The least surprising chapter of the Manus story is what’s happening right now",
+      "title_zh": "The least surprising chapter of the Manus story is what’s happening right now",
+      "summary_en": "无人预料到此次合作竟无需承担后果。",
+      "summary_zh": "TechCrunch AI：无人预料到此次合作竟无需承担后果。"
+    },
+    {
+      "id": "b303e4e7",
+      "lang": "en",
+      "tags": [
+        "The Verge"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers",
+      "published_at": "2026-03-26T10:25:32-04:00",
+      "collected_at": "2026-03-26T22:47:56.628709Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Senators are pushing to find out how much electricity data centers actually use",
+      "title_zh": "Senators are pushing to find out how much electricity data centers actually use",
+      "summary_en": "美国参议员沃伦和霍利致信能源信息署，要求其开始全面收集数据中心的年度能耗数据，以支持电网规划。",
+      "summary_zh": "The Verge：美国参议员沃伦和霍利致信能源信息署，要求其开始全面收集数据中心的年度能耗数据，以支持电网规划。"
+    },
+    {
+      "id": "6a621520",
+      "lang": "en",
+      "tags": [
+        "The Verge"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/transportation/900559/robotaxi-two-seater-tesla-lucid-drag-cost",
+      "published_at": "2026-03-26T10:00:00-04:00",
+      "collected_at": "2026-03-26T22:47:58.845369Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Why a two-seater robotaxi makes more sense than you think",
+      "title_zh": "Why a two-seater robotaxi makes more sense than you think",
+      "summary_en": "2024年特斯拉发布Cybercab，其两座设计引发广泛质疑，被批不符合常规出租车需求。",
+      "summary_zh": "The Verge：2024年特斯拉发布Cybercab，其两座设计引发广泛质疑，被批不符合常规出租车需求。"
+    },
+    {
+      "id": "af8a4099",
+      "lang": "en",
+      "tags": [
+        "The Verge"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/gadgets/900953/best-apple-deals-amazon-big-spring-sale-2026",
+      "published_at": "2026-03-26T09:07:26-04:00",
+      "collected_at": "2026-03-26T22:48:01.173676Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Some of our favorite Apple tech is cheaper than ever during Amazon’s Big Spring Sale",
+      "title_zh": "Some of our favorite Apple tech is cheaper than ever during Amazon’s Big Spring Sale",
+      "summary_en": "亚马逊春季大促期间，苹果产品大多未参与折扣，但仍有部分优惠商品。",
+      "summary_zh": "The Verge：亚马逊春季大促期间，苹果产品大多未参与折扣，但仍有部分优惠商品。"
+    },
+    {
+      "id": "05aa6881",
+      "lang": "en",
+      "tags": [
+        "The Verge"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/899108/webtoon-canvas-ai-translation-localization-yongsoo-kim",
+      "published_at": "2026-03-26T09:00:00-04:00",
+      "collected_at": "2026-03-26T22:48:03.610393Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Webtoon is adding AI localization tools to its comics platform",
+      "title_zh": "Webtoon is adding AI localization tools to its comics platform",
+      "summary_en": "Webtoon宣布将升级用户漫画平台Canvas，推出新功能以帮助创作者增加收入并扩大全球受众。",
+      "summary_zh": "The Verge：Webtoon宣布将升级用户漫画平台Canvas，推出新功能以帮助创作者增加收入并扩大全球受众。"
+    },
+    {
+      "id": "4f634946",
+      "lang": "en",
+      "tags": [
+        "The Verge"
+      ],
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/tech/901105/sonos-play-speaker-review",
+      "published_at": "2026-03-26T09:00:00-04:00",
+      "collected_at": "2026-03-26T22:48:06.607322Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "The versatile Play speaker is a great way into the Sonos world",
+      "title_zh": "The versatile Play speaker is a great way into the Sonos world",
+      "summary_en": "Sonos时隔近一年半发布新品，售价299美元的Sonos Play是一款全新便携式音箱，可作为现有系统的扩展或入门产品。",
+      "summary_zh": "The Verge：Sonos时隔近一年半发布新品，售价299美元的Sonos Play是一款全新便携式音箱，可作为现有系统的扩展或入门产品。"
     }
   ]
 }
