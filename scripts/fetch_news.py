@@ -101,14 +101,18 @@ RSS_FEEDS = [
         "language": "zh"
     },
     {
-        "name": "机器之心",
-        "url": "https://www.jiqizhixin.com/rss",
-        "type": "media_cn",
-        "language": "zh"
-    },
-    {
         "name": "InfoQ AI",
         "url": "https://www.infoq.cn/feed.xml",
+        "type": "media_cn",
+        "language": "zh"
+    }
+]
+
+# API 源列表（使用自定义 API 接口）
+API_SOURCES = [
+    {
+        "name": "机器之心",
+        "url": "https://www.jiqizhixin.com/api/article_library/articles.json?sort=time&page=1&per=5",
         "type": "media_cn",
         "language": "zh"
     }
@@ -150,6 +154,46 @@ def fetch_from_rss(feed_info):
             "source_name": feed_info['name'],
             "source_type": feed_info['type'],
             "language": feed_info['language']
+        }
+        news_list.append(news)
+    
+    print(f"  ✅ 获取 {len(news_list)} 条新闻")
+    return news_list
+
+
+def fetch_from_api(source_info):
+    """从 API 接口抓取新闻"""
+    print(f"🔌 抓取 API: {source_info['name']}")
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Accept": "application/json",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"
+    }
+    
+    try:
+        response = requests.get(source_info['url'], headers=headers, timeout=10)
+        data = response.json()
+    except Exception as e:
+        print(f"  ❌ 请求失败：{e}")
+        return []
+    
+    news_list = []
+    
+    # 解析 API 返回的文章数据
+    articles = data.get('articles', [])
+    for article in articles[:5]:  # 每个源抓取最新的 5 条
+        # 构建文章链接
+        article_url = f"https://www.jiqizhixin.com/articles/{article.get('slug', '')}"
+        
+        news = {
+            "title": article.get('title', ''),
+            "url": article_url,
+            "content": article.get('content', article.get('title', '')),
+            "published_at": article.get('publishedAt', datetime.now().isoformat()),
+            "source_name": source_info['name'],
+            "source_type": source_info['type'],
+            "language": source_info['language']
         }
         news_list.append(news)
     
@@ -334,23 +378,32 @@ def main():
         news = fetch_from_rss(feed_info)
         all_news.extend(news)
     
-    # 2. 去重
+    # 2. 从 API 抓取
     print("\n" + "=" * 50)
-    print("🔄 阶段 2: 去重")
+    print("🔌 阶段 2: API 抓取")
+    print("=" * 50)
+    
+    for source_info in API_SOURCES:
+        news = fetch_from_api(source_info)
+        all_news.extend(news)
+    
+    # 3. 去重
+    print("\n" + "=" * 50)
+    print("🔄 阶段 3: 去重")
     print("=" * 50)
     
     unique_news = deduplicate_news(all_news)
     print(f"原始：{len(all_news)} 条 → 去重后：{len(unique_news)} 条")
     
-    # 3. 保存数据（包含调用 DeepSeek 生成摘要）
+    # 4. 保存数据（包含调用 DeepSeek 生成摘要）
     print("\n" + "=" * 50)
-    print("📝 阶段 3: 生成摘要并保存")
+    print("📝 阶段 4: 生成摘要并保存")
     print("=" * 50)
     
     date = datetime.now().strftime("%Y-%m-%d")
     save_daily_data(unique_news, date)
     
-    # 4. 完成
+    # 5. 完成
     print("\n" + "=" * 50)
     print("✅ 采集完成！")
     print("=" * 50)
