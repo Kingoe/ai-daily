@@ -14,6 +14,7 @@ python3 fetch_news.py
 """
 
 import os
+import sys
 import json
 import requests
 import feedparser
@@ -22,6 +23,7 @@ from bs4 import BeautifulSoup
 import re
 from pathlib import Path
 from dotenv import load_dotenv
+import argparse
 
 # 加载 .env 文件中的环境变量
 env_path = Path(__file__).parent.parent / '.env'
@@ -171,41 +173,6 @@ def fetch_from_rss(feed_info, target_date):
     return news_list
 
 
-def fetch_from_rss_latest(feed_info):
-    """从 RSS 源抓取最新的新闻（不过滤日期）"""
-    print(f"📡 抓取 RSS: {feed_info['name']}")
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-        "Accept": "application/rss+xml, application/xml, text/xml, */*",
-        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"
-    }
-    
-    try:
-        response = requests.get(feed_info['url'], headers=headers, timeout=10)
-        feed = feedparser.parse(response.content)
-    except Exception as e:
-        print(f"  ❌ 请求失败：{e}")
-        return []
-    
-    news_list = []
-    
-    for entry in feed.entries[:5]:  # 每个源抓取最新的 5 条
-        news = {
-            "title": entry.title,
-            "url": entry.link,
-            "content": entry.get('summary', entry.title),
-            "published_at": entry.get('published', datetime.now().isoformat()),
-            "source_name": feed_info['name'],
-            "source_type": feed_info['type'],
-            "language": feed_info['language']
-        }
-        news_list.append(news)
-    
-    print(f"  ✅ 获取 {len(news_list)} 条新闻")
-    return news_list
-
-
 def fetch_from_api(source_info, target_date):
     """从 API 接口抓取新闻"""
     print(f"🔌 抓取 API: {source_info['name']}")
@@ -258,7 +225,7 @@ def is_same_date(date_str, target_date):
     """检查日期字符串是否与目标日期匹配"""
     try:
         # 先清理常见的时区后缀
-        clean_date = date_str.replace(' GMT', '').replace(' UTC', '').strip()
+        clean_date = date_str.replace(' GMT', '').replace(' UTC', '').replace(' +0000', '').strip()
         
         # 尝试解析多种日期格式
         date_formats = [
@@ -271,7 +238,8 @@ def is_same_date(date_str, target_date):
         
         for fmt in date_formats:
             try:
-                parsed_date = datetime.strptime(clean_date[:len(fmt)], fmt)
+                # 使用完整的字符串尝试解析
+                parsed_date = datetime.strptime(clean_date, fmt)
                 result = parsed_date.strftime("%Y-%m-%d") == target_date
                 return result
             except (ValueError, IndexError):
@@ -448,24 +416,30 @@ def save_daily_data(news_list, date):
 
 def main():
     """主函数：执行完整的采集流程"""
+    # 解析命令行参数
+    parser = argparse.ArgumentParser(description='AI Daily 新闻采集脚本')
+    parser.add_argument('--date', '-d', type=str, default=None,
+                        help='采集日期（格式：YYYY-MM-DD），默认为今天')
+    args = parser.parse_args()
+    
     print("🚀 开始采集 AI 每日新闻...\n")
     
     # 获取目标日期（默认为今天）
-    target_date = datetime.now().strftime("%Y-%m-%d")
+    target_date = args.date if args.date else datetime.now().strftime("%Y-%m-%d")
     print(f"📅 采集日期：{target_date}\n")
     
     all_news = []
     
-    # 1. 从 RSS 源抓取（不过滤日期，抓取最新新闻）
+    # 1. 从 RSS 源抓取（按日期过滤）
     print("=" * 50)
     print("📡 阶段 1: RSS 抓取")
     print("=" * 50)
     
     for feed_info in RSS_FEEDS:
-        news = fetch_from_rss_latest(feed_info)
+        news = fetch_from_rss(feed_info, target_date)
         all_news.extend(news)
     
-    # 2. 从 API 抓取（过滤日期）
+    # 2. 从 API 抓取（按日期过滤）
     print("\n" + "=" * 50)
     print("🔌 阶段 2: API 抓取")
     print("=" * 50)
@@ -497,6 +471,7 @@ def main():
     print(f"   - 共采集：{len(unique_news)} 条新闻")
     print(f"   - 日期：{target_date}")
     print(f"   - 本地预览：http://localhost:8000/docs/")
+    print(f"\n💡 提示：建议每天 10:00/15:00/20:00/23:00 执行四次采集，覆盖全天新闻")
 
 
 if __name__ == "__main__":
