@@ -383,13 +383,16 @@ def save_daily_data(news_list, date):
     
     # 更新或添加新日期
     if date not in existing_dates:
-        existing_dates.insert(0, date)  # 新日期放在最前面
+        existing_dates.append(date)  # 先添加到末尾
+    
+    # 按日期从新到旧排序
+    existing_dates.sort(reverse=True)
     
     # 更新索引文件
     index_data = {
-        "latest_date": date,
+        "latest_date": existing_dates[0],  # 最新的日期
         "updated_at": datetime.now().isoformat() + "Z",
-        "dates": existing_dates,  # 保留所有日期
+        "dates": existing_dates,  # 保留所有日期（已排序）
         "items": items
     }
     

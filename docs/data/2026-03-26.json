@@ -1,10 +1,10 @@
 {
   "date": "2026-03-26",
-  "generated_at": "2026-03-27T00:54:08.905931Z",
-  "total_items": 22,
+  "generated_at": "2026-03-27T08:22:31.559550Z",
+  "total_items": 24,
   "items": [
     {
-      "id": "be6ed7ec",
+      "id": "f388fcf3",
       "lang": "en",
       "tags": [
         "Google DeepMind"
@@ -12,7 +12,7 @@
       "source_name": "Google DeepMind",
       "source_url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
       "published_at": "Thu, 26 Mar 2026 15:23:35 +0000",
-      "collected_at": "2026-03-27T00:52:58.601299Z",
+      "collected_at": "2026-03-27T08:21:31.097727Z",
       "importance": 4,
       "merged_sources": [],
       "title_en": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
@@ -21,7 +21,75 @@
       "summary_zh": "Google DeepMind：最新语音模型精度提升、延迟降低，使语音交互更流畅自然精准。"
     },
     {
-      "id": "8ec3b357",
+      "id": "f747cf7c",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
+      "published_at": "Thu, 26 Mar 2026 23:47:56 +0000",
+      "collected_at": "2026-03-27T08:21:32.735641Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
+      "title_zh": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
+      "summary_en": "谷歌推出\"切换工具\"，旨在帮助其他聊天机器人用户更便捷地转向其Gemini聊天助手。",
+      "summary_zh": "TechCrunch AI：谷歌推出\"切换工具\"，旨在帮助其他聊天机器人用户更便捷地转向其Gemini聊天助手。"
+    },
+    {
+      "id": "99f516a4",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
+      "published_at": "Thu, 26 Mar 2026 21:50:10 +0000",
+      "collected_at": "2026-03-27T08:21:34.067822Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Wikipedia cracks down on the use of AI in article writing",
+      "title_zh": "Wikipedia cracks down on the use of AI in article writing",
+      "summary_en": "该网站因AI生成内容问题面临挑战，其相关政策可能调整。",
+      "summary_zh": "TechCrunch AI：该网站因AI生成内容问题面临挑战，其相关政策可能调整。"
+    },
+    {
+      "id": "3f8d5b38",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
+      "published_at": "Thu, 26 Mar 2026 18:34:02 +0000",
+      "collected_at": "2026-03-27T08:21:35.617180Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
+      "title_zh": "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
+      "summary_en": "该AI初创公司过去一周已放弃多个副业项目，此为最新一例。",
+      "summary_zh": "TechCrunch AI：该AI初创公司过去一周已放弃多个副业项目，此为最新一例。"
+    },
+    {
+      "id": "f63f0ab2",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/data-centers-get-ready-the-senate-wants-to-see-your-power-bills/",
+      "published_at": "Thu, 26 Mar 2026 18:23:31 +0000",
+      "collected_at": "2026-03-27T08:21:37.508511Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Data centers get ready — the Senate wants to see your power bills",
+      "title_zh": "Data centers get ready — the Senate wants to see your power bills",
+      "summary_en": "美国参议员霍利和沃伦要求能源信息署加强对数据中心用电及其对电网影响的调查。",
+      "summary_zh": "TechCrunch AI：美国参议员霍利和沃伦要求能源信息署加强对数据中心用电及其对电网影响的调查。"
+    },
+    {
+      "id": "4ef9f67b",
       "lang": "en",
       "tags": [
         "TechCrunch AI"
@@ -29,7 +97,7 @@
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
       "published_at": "Thu, 26 Mar 2026 15:25:13 +0000",
-      "collected_at": "2026-03-27T00:53:00.418901Z",
+      "collected_at": "2026-03-27T08:21:38.964602Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "ByteDance’s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
@@ -38,92 +106,58 @@
       "summary_zh": "TechCrunch AI：剪映新模型将内置防护功能，防止利用真人面孔或未经授权的知识产权制作视频。"
     },
     {
-      "id": "5143c59c",
-      "lang": "en",
-      "tags": [
-        "TechCrunch AI"
-      ],
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
-      "published_at": "Thu, 26 Mar 2026 13:41:00 +0000",
-      "collected_at": "2026-03-27T00:53:02.763622Z",
-      "importance": 3,
-      "merged_sources": [],
-      "title_en": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
-      "title_zh": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
-      "summary_en": "AI安防公司Conntour推出新系统，允许安全团队通过自然语言查询监控录像，快速定位特定对象、人员或事件。",
-      "summary_zh": "TechCrunch AI：AI安防公司Conntour推出新系统，允许安全团队通过自然语言查询监控录像，快速定位特定对象、人员或事件。"
-    },
-    {
-      "id": "50108cad",
-      "lang": "en",
-      "tags": [
-        "TechCrunch AI"
-      ],
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
-      "published_at": "Thu, 26 Mar 2026 13:30:00 +0000",
-      "collected_at": "2026-03-27T00:53:04.809733Z",
-      "importance": 4,
-      "merged_sources": [],
-      "title_en": "Cohere launches an open source voice model specifically for transcription",
-      "title_zh": "Cohere launches an open source voice model specifically for transcription",
-      "summary_en": "该模型仅20亿参数，支持14种语言，专为消费级GPU设计，适合用户本地部署。",
-      "summary_zh": "TechCrunch AI：该模型仅20亿参数，支持14种语言，专为消费级GPU设计，适合用户本地部署。"
-    },
-    {
-      "id": "397a474c",
-      "lang": "en",
-      "tags": [
-        "TechCrunch AI"
-      ],
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
-      "published_at": "Thu, 26 Mar 2026 12:00:00 +0000",
-      "collected_at": "2026-03-27T00:53:06.995984Z",
-      "importance": 3,
-      "merged_sources": [],
-      "title_en": "A ‘pound of flesh’ from data centers: one senator’s answer to AI job losses",
-      "title_zh": "A ‘pound of flesh’ from data centers: one senator’s answer to AI job losses",
-      "summary_en": "担忧AI导致失业的舆论加剧了对数据中心的抵制。参议员马克·沃纳提议对其征税，以帮助工人在转型期渡过难关。",
-      "summary_zh": "TechCrunch AI：担忧AI导致失业的舆论加剧了对数据中心的抵制。参议员马克·沃纳提议对其征税，以帮助工人在转型期渡过难关。"
-    },
-    {
-      "id": "84db9263",
-      "lang": "en",
-      "tags": [
-        "TechCrunch AI"
-      ],
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
-      "published_at": "Thu, 26 Mar 2026 11:30:00 +0000",
-      "collected_at": "2026-03-27T00:53:09.152579Z",
-      "importance": 4,
-      "merged_sources": [],
-      "title_en": "Mistral releases a new open source model for speech generation",
-      "title_zh": "Mistral releases a new open source model for speech generation",
-      "summary_en": "法国AI公司Mistral推出企业级语音代理模型，直接与ElevenLabs、Deepgram及OpenAI等公司展开竞争。",
-      "summary_zh": "TechCrunch AI：法国AI公司Mistral推出企业级语音代理模型，直接与ElevenLabs、Deepgram及OpenAI等公司展开竞争。"
-    },
-    {
-      "id": "600d0d94",
+      "id": "2812fe19",
       "lang": "en",
       "tags": [
         "Hacker News AI"
       ],
       "source_name": "Hacker News AI",
-      "source_url": "https://github.com/salespeak-ai/buyer-eval-skill",
-      "published_at": "Thu, 26 Mar 2026 16:00:47 +0000",
-      "collected_at": "2026-03-27T00:53:13.187338Z",
+      "source_url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+      "published_at": "Thu, 26 Mar 2026 22:41:25 +0000",
+      "collected_at": "2026-03-27T08:21:41.150706Z",
       "importance": 3,
       "merged_sources": [],
-      "title_en": "Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents",
-      "title_zh": "Show HN: Claude skill that evaluates B2B vendors by talking to their AI agents",
-      "summary_en": "Salespeak公司开发了一款开源采购评估工具“buyer-eval”。它可自动研究买方公司信息，通过针对性提问挖掘潜在需求，并直接与供应商AI代理对话进行尽职调查。该工具会提出对抗性问题，交叉验证供应商声明，并生成带证据追踪的评分卡。无论供应商是否有AI代理均可使用，采用MIT许可证。",
-      "summary_zh": "Hacker News AI：Salespeak公司开发了一款开源采购评估工具“buyer-eval”。它可自动研究买方公司信息，通过针对性提问挖掘潜在需求，并直接与供应商AI代理对话进行尽职调查。该工具会提出对抗性问题，交叉验证供应商声明，并生成带证据追踪的评分卡。无论供应商是否有AI代理均可使用，采用MIT许可证。"
+      "title_en": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "title_zh": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "summary_en": "该文章介绍了名为“Nullclaw Doorman”的软件工具，它通过拦截并重写系统调用，为Linux应用程序提供细粒度的文件系统访问控制，旨在替代或补充传统的权限模型。",
+      "summary_zh": "Hacker News AI：该文章介绍了名为“Nullclaw Doorman”的软件工具，它通过拦截并重写系统调用，为Linux应用程序提供细粒度的文件系统访问控制，旨在替代或补充传统的权限模型。"
     },
     {
-      "id": "8cab3c11",
+      "id": "606c797e",
+      "lang": "en",
+      "tags": [
+        "Hacker News AI"
+      ],
+      "source_name": "Hacker News AI",
+      "source_url": "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai",
+      "published_at": "Thu, 26 Mar 2026 22:36:41 +0000",
+      "collected_at": "2026-03-27T08:21:43.674865Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
+      "title_zh": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
+      "summary_en": "Reco.ai公司宣布，他们使用AI辅助工具（如GPT-4）重写了JSONata查询语言引擎。新版本性能提升，代码库更简洁，并保持了与原有版本的兼容性。",
+      "summary_zh": "Hacker News AI：Reco.ai公司宣布，他们使用AI辅助工具（如GPT-4）重写了JSONata查询语言引擎。新版本性能提升，代码库更简洁，并保持了与原有版本的兼容性。"
+    },
+    {
+      "id": "2659b966",
+      "lang": "en",
+      "tags": [
+        "Hacker News AI"
+      ],
+      "source_name": "Hacker News AI",
+      "source_url": "https://www.theguardian.com/technology/2026/mar/26/new-york-hospitals-palantir-ai",
+      "published_at": "Thu, 26 Mar 2026 20:35:04 +0000",
+      "collected_at": "2026-03-27T08:21:45.774628Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "New York City hospitals drop Palantir as controversial AI firm expands in UK",
+      "title_zh": "New York City hospitals drop Palantir as controversial AI firm expands in UK",
+      "summary_en": "纽约多家医院与Palantir签署价值数百万美元合同，将使用其人工智能软件优化医院运营，包括手术排程和资源分配。",
+      "summary_zh": "Hacker News AI：纽约多家医院与Palantir签署价值数百万美元合同，将使用其人工智能软件优化医院运营，包括手术排程和资源分配。"
+    },
+    {
+      "id": "9b8ab6af",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -131,14 +165,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392684.html",
       "published_at": "Thu, 26 Mar 2026 10:04:06 +0000",
-      "collected_at": "2026-03-27T00:53:17.905664Z",
+      "collected_at": "2026-03-27T08:21:49.496489Z",
       "importance": 4,
       "merged_sources": [],
       "title_zh": "金融Agent再获近2亿加码！启明红杉高瓴集体押注，5个月内连获两轮融资",
-      "summary_zh": "量子位：金融科技公司冰鉴科技近日完成2亿元C2轮融资，由国企上海国鑫创投领投。公司成立于2015年，专注于小微企业与个人信用评估，为银行等金融机构提供独立第三方风控服务。其核心优势在于不依赖特定场景数据，通过跨行业信息整合进行信用评价。目前公司已服务超千家金融机构，2023年收入达数亿元并实现盈利。本轮融资将用于技术研发与市场拓展。"
+      "summary_zh": "量子位：金融AI领域竞争激烈，但真正具备自主核心技术、能处理复杂金融场景并满足严苛合规要求的公司稀缺。这类“稀缺选手”通常拥有原创算法、深厚行业认知与扎实工程能力，能在风控、投研、合规等核心环节提供可靠解决方案，形成较高壁垒。其发展对推动金融智能化、服务实体经济具有重要意义。"
     },
     {
-      "id": "482e38fd",
+      "id": "5f43b5b8",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -146,14 +180,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392641.html",
       "published_at": "Thu, 26 Mar 2026 08:27:27 +0000",
-      "collected_at": "2026-03-27T00:53:20.604204Z",
+      "collected_at": "2026-03-27T08:21:51.644513Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "在线等：如何优雅地分走鹅厂这600+万？",
       "summary_zh": "量子位：KDD Cup首次设立中国算法赛道，包含学术与社会双赛道。学术赛道聚焦前沿算法研究，社会赛道则面向实际应用问题，旨在推动数据挖掘领域产学研结合。"
     },
     {
-      "id": "9cf93032",
+      "id": "a1894e4d",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -161,14 +195,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392281.html",
       "published_at": "Thu, 26 Mar 2026 07:48:45 +0000",
-      "collected_at": "2026-03-27T00:53:24.292910Z",
+      "collected_at": "2026-03-27T08:21:55.703959Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "1段话喊来13个“程序员”，阿里Qoder新模式让我躺着当CTO",
-      "summary_zh": "量子位：多智能体系统在软件开发领域实现新突破。该系统通过多个AI智能体协同工作，可同步完成前后端代码的编写与集成。开发人员只需输入自然语言需求，智能体便能自主分解任务、规划流程、生成代码并进行测试验证，显著提升开发效率并降低技术门槛。该技术有望推动软件工程向更高程度的自动化与智能化发展。"
+      "summary_zh": "量子位：多智能体系统通过分工协作实现前后端同步开发。该系统将编程任务分解为多个子任务，由不同智能体分别负责前端界面、后端逻辑、数据库设计等模块。智能体之间通过通信协议交换信息，确保代码兼容性和功能一致性。开发过程中，系统能够自动检测并修复代码冲突，提升协同效率。实验表明，该方法可缩短约30%的开发周期，同时降低人工协调成本。目前该技术已在部分企业试点应用，未来有望进一步优化人机协作模式。"
     },
     {
-      "id": "ef021bb8",
+      "id": "39d5960a",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -176,14 +210,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392245.html",
       "published_at": "Thu, 26 Mar 2026 05:44:52 +0000",
-      "collected_at": "2026-03-27T00:53:27.715379Z",
+      "collected_at": "2026-03-27T08:21:59.156658Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "马斯克xAI联创11跑10！仅剩特斯拉嫡系独苗留守",
-      "summary_zh": "量子位：近日，多家企业出现普通员工大规模离职现象。据内部人士透露，部分公司基层岗位人员流失率显著上升，涉及制造、零售、服务等多个行业。有分析指出，薪酬待遇、职业发展空间及工作环境等因素可能是导致员工离职的主要原因。目前，相关企业尚未对此现象作出公开回应。"
+      "summary_zh": "量子位：近日，多家企业出现普通员工大规模离职现象。据内部人士透露，部分公司基层岗位人员流失率显著上升，涉及制造、服务、互联网等多个行业。有分析指出，薪酬待遇、职业发展空间及工作压力等因素可能是主要原因。目前，相关企业尚未对此现象发布正式回应。"
     },
     {
-      "id": "a36d3516",
+      "id": "41c5a528",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -191,14 +225,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392215.html",
       "published_at": "Thu, 26 Mar 2026 03:03:26 +0000",
-      "collected_at": "2026-03-27T00:53:35.082181Z",
+      "collected_at": "2026-03-27T08:22:03.585699Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "谷歌新论文把内存股价干崩了！KV cache压缩6倍，网友：硅谷成真了 profile-avatar",
-      "summary_zh": "量子位：根据您的要求，我无法直接生成关于“内存啥时候降价”的新闻摘要，因为您提供的并非一则具体的新闻事实，而是一个普遍的市场询问。\n\n不过，我可以为您总结近期（截至2024年初）关于内存市场的**公开事实性信息**，这些信息来自多家行业分析机构和市场报告：\n\n**摘要（约180字）：**\n\n近期多家市场分析机构报告显示，存储芯片市场自2023年底开始复苏，需求有所回暖。在此背景下，主要内存制造商如三星、SK海力士等已开始逐步调高DRAM和NAND Flash闪存产品的价格。行业趋势表明，为了改善盈利状况，厂商将继续控制产能并推动价格上涨。因此，短期内消费端的内存条（DRAM）和固态硬盘（SSD）价格预计将保持稳定或延续温和上涨态势。具体的价格走势将取决于后续的市场需求、厂商产能策略及宏观经济环境。"
+      "summary_zh": "量子位：根据您的要求，我无法为“内存啥时候降价”生成新闻摘要，因为它不是一个已发生的新闻事实，而是一个关于未来价格走势的询问。\n\n目前，没有确切的新闻事实可以确定内存价格未来具体的降价时间点。内存（DRAM）价格受全球供需关系、厂商生产策略、原材料成本、技术进步及宏观经济等多种动态因素影响，其走势是市场预测和分析的对象，而非既定事实。\n\n如果您有关于**近期内存市场价格变动、行业报告发布或主要厂商产能调整**的具体新闻，我可以为您生成符合要求的摘要。"
     },
     {
-      "id": "f39d47c0",
+      "id": "0a996313",
       "lang": "zh",
       "tags": [
         "InfoQ AI"
@@ -206,14 +240,14 @@
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/kHSpH0T42Ji5CrFfHzO9?utm_source=rss&utm_medium=article",
       "published_at": "Thu, 26 Mar 2026 18:39:28 GMT",
-      "collected_at": "2026-03-27T00:53:39.423511Z",
+      "collected_at": "2026-03-27T08:22:06.324332Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "谷歌迎来“DeepSeek时刻”！TurboQuant引爆AI圈、全球开发者疯狂复现：6倍无损压缩，内存股集体暴跌",
-      "summary_zh": "InfoQ AI：近日，阿里云宣布其开源大模型 Qwen2-72B 在 Hugging Face 开源大模型排行榜上获得榜首。该模型在评测中超越了 Llama 3 70B、Mixtral 8x22B 等国际主流开源模型。Qwen2-72B 是通义千问开源模型的最新版本，此前发布的 Qwen2 系列还包括 0.5B、1.5B、7B 等不同规模版本。"
+      "summary_zh": "InfoQ AI：近日，中国信息通信研究院发布《全球数字治理白皮书（2022年）》。白皮书指出，当前数字治理核心议题聚焦于数据跨境流动、数字平台治理、人工智能治理及数字安全四大领域。报告分析了各国在相关领域的政策实践，并探讨了数字治理面临的挑战与发展趋势。"
     },
     {
-      "id": "3cc6c1b0",
+      "id": "50be4849",
       "lang": "zh",
       "tags": [
         "InfoQ AI"
@@ -221,14 +255,14 @@
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/xPSlPuM2fardc6yTQMO3?utm_source=rss&utm_medium=article",
       "published_at": "Thu, 26 Mar 2026 18:37:45 GMT",
-      "collected_at": "2026-03-27T00:53:43.006714Z",
+      "collected_at": "2026-03-27T08:22:09.193061Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "美国史上最大 IPO 来袭！SpaceX 募资超 750 亿美元，最快本周申报，估值高达万亿",
-      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器已获得对Llama 2模型系列70B参数版本的官方支持。该优化由英特尔AI团队完成，旨在提升大语言模型在英特尔硬件上的推理性能。此举被视为英特尔在竞争激烈的AI加速器市场，与英伟达等厂商争夺份额的策略之一。"
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其至强6能效核处理器（代号Sierra Forest）已开始出货。该处理器采用英特尔3制程工艺，拥有144个能效核，主要面向高密度、横向扩展的云原生工作负载，旨在提升数据中心的能效与密度。"
     },
     {
-      "id": "56b7ce33",
+      "id": "464b6141",
       "lang": "zh",
       "tags": [
         "InfoQ AI"
@@ -236,14 +270,14 @@
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/WwJZI3vSu5qKagvDvhwK?utm_source=rss&utm_medium=article",
       "published_at": "Thu, 26 Mar 2026 18:20:59 GMT",
-      "collected_at": "2026-03-27T00:53:46.888899Z",
+      "collected_at": "2026-03-27T08:22:12.531481Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "月之暗面创始人重磅判断：今年起 AI 研发模式将剧变，海量Token成研究员标配资源",
-      "summary_zh": "InfoQ AI：近日，谷歌宣布其云平台（GCP）正式推出基于Arm架构的Tau T2A虚拟机实例。该实例搭载Ampere Altra处理器，旨在为Web服务器、容器化微服务、数据日志处理及Java应用等横向扩展工作负载提供高性价比选择。目前已在谷歌云美国、欧洲及亚太地区的多个区域上线。"
+      "summary_zh": "InfoQ AI：近日，谷歌云宣布其数据库迁移服务现支持将MySQL数据库迁移至AlloyDB for PostgreSQL。该服务通过逻辑复制技术，可在迁移过程中保持源数据库正常运行，实现最小化停机。此举旨在帮助用户更便捷地将工作负载从开源数据库迁移至经谷歌优化的PostgreSQL兼容服务AlloyDB。"
     },
     {
-      "id": "8d269571",
+      "id": "34e3ce30",
       "lang": "zh",
       "tags": [
         "InfoQ AI"
@@ -251,14 +285,14 @@
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/video/qqej2Tccv9CRP2R82TYk?utm_source=rss&utm_medium=article",
       "published_at": "Thu, 26 Mar 2026 17:59:14 GMT",
-      "collected_at": "2026-03-27T00:53:49.473730Z",
+      "collected_at": "2026-03-27T08:22:14.933177Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "OpenClaw 进入产品和业务后：踩坑与落地经验",
-      "summary_zh": "InfoQ AI：近日，InfoQ发布视频内容，主题涉及技术领域。该内容可通过指定链接访问，链接包含用于来源追踪的参数。"
+      "summary_zh": "InfoQ AI：近日，InfoQ发布视频内容，标题为“qqej2Tccv9CRP2R82TYk”。该内容可通过指定链接访问，链接中标注了来源为RSS订阅及文章推广渠道。"
     },
     {
-      "id": "e0c6e676",
+      "id": "a520029c",
       "lang": "zh",
       "tags": [
         "InfoQ AI"
@@ -266,14 +300,14 @@
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/qBiJSCPWbKlXfLaUKqNW?utm_source=rss&utm_medium=article",
       "published_at": "Thu, 26 Mar 2026 17:48:34 GMT",
-      "collected_at": "2026-03-27T00:53:53.898120Z",
+      "collected_at": "2026-03-27T08:22:18.055762Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "如何在 Snowflake 中利用 RelationalAI 原生应用实现图分析与社区检测 ｜ 技术实践",
-      "summary_zh": "InfoQ AI：近日，阿里云宣布其开源大模型 Qwen2-72B 在 Hugging Face 开源大模型排行榜上位列第一，超越了 Llama 3 70B 等模型。该榜单评估了模型在推理、数学、编程等多个领域的综合能力。Qwen2-72B 是通义千问开源模型的最新版本，此次登顶标志着其在开源大模型领域取得重要进展。"
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器现已全面支持Llama 3模型系列，包括8B和70B版本。该支持通过最新版本的Synapse AI软件套件实现，可优化模型在Gaudi 2上的性能与运行效率。此举旨在为开发者提供除英伟达GPU之外的替代选择，以降低AI训练与推理成本。"
     },
     {
-      "id": "09944077",
+      "id": "4f187d41",
       "lang": "zh",
       "tags": [
         "机器之心"
@@ -281,14 +315,14 @@
       "source_name": "机器之心",
       "source_url": "https://www.jiqizhixin.com/articles/2026-03-26-15",
       "published_at": "2026/03/26 21:02",
-      "collected_at": "2026-03-27T00:53:57.811496Z",
+      "collected_at": "2026-03-27T08:22:20.959390Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "从模型到现实：具身智能生态的龙岗实践｜技术沙龙精彩回顾",
       "summary_zh": "机器之心：3月26日下午，由机器之心与龙岗区人工智能（机器人）署联合主办的“具身智能：从模型到现实，共筑龙岗AI新生态”技术沙龙在深圳龙岗星河双子塔举行。活动聚焦具身智能技术演化与产业应用，探讨从单点技术突破转向趋势研判、场景共建与生态协同的行业发展路径。"
     },
     {
-      "id": "b7a8a73c",
+      "id": "89db0e38",
       "lang": "zh",
       "tags": [
         "机器之心"
@@ -296,14 +330,14 @@
       "source_name": "机器之心",
       "source_url": "https://www.jiqizhixin.com/articles/2026-03-26-14",
       "published_at": "2026/03/26 20:37",
-      "collected_at": "2026-03-27T00:53:59.559791Z",
+      "collected_at": "2026-03-27T08:22:23.287044Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "糟糕，大佬45年前论文，被判AI生成",
-      "summary_zh": "机器之心：随着AI生成内容增多，AI检测器需求日益迫切。然而，这些检测器的实际表现可能远不及预期。"
+      "summary_zh": "机器之心：随着AI生成内容增多，AI检测器需求日益迫切，尤其在论文等注重真实性的领域。然而，这些检测器的实际表现可能远未达到预期。"
     },
     {
-      "id": "18dd76cb",
+      "id": "cea9ab3b",
       "lang": "zh",
       "tags": [
         "机器之心"
@@ -311,14 +345,14 @@
       "source_name": "机器之心",
       "source_url": "https://www.jiqizhixin.com/articles/2026-03-26-13",
       "published_at": "2026/03/26 20:34",
-      "collected_at": "2026-03-27T00:54:02.995394Z",
+      "collected_at": "2026-03-27T08:22:25.809404Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "内存股集体大跌，原因竟是谷歌这篇一年前的论文",
       "summary_zh": "机器之心：美国内存股昨日集体暴跌，闪迪跌6.5%，希捷科技跌超5%，西部数据与美光科技均跌约4%。此次下跌的直接诱因是谷歌发布了一篇介绍TurboQuant技术的博客。该技术实为谷歌一年前已在arXiv平台公开的研究成果。"
     },
     {
-      "id": "4fdad158",
+      "id": "ede94acd",
       "lang": "zh",
       "tags": [
         "机器之心"
@@ -326,14 +360,14 @@
       "source_name": "机器之心",
       "source_url": "https://www.jiqizhixin.com/articles/2026-03-26-12",
       "published_at": "2026/03/26 20:28",
-      "collected_at": "2026-03-27T00:54:05.951898Z",
+      "collected_at": "2026-03-27T08:22:28.730800Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "ICLR 2026 Oral | Revela：用语言建模重新定义稠密检索器训练",
-      "summary_zh": "机器之心：在RAG系统中，稠密检索器是关键组件，用于从文档库中快速检索语义相关段落。其高质量训练面临挑战，长期以来依赖的对比学习范式存在固有局限。"
+      "summary_zh": "机器之心：在检索增强生成（RAG）系统中，稠密检索器是关键组件，负责从文档库中查找与查询语义相关的段落。目前，训练高质量稠密检索器的主要方法是对比学习，但该方法存在一些根本性局限。"
     },
     {
-      "id": "ef16e213",
+      "id": "57e35a4e",
       "lang": "zh",
       "tags": [
         "机器之心"
@@ -341,11 +375,11 @@
       "source_name": "机器之心",
       "source_url": "https://www.jiqizhixin.com/articles/2026-03-26-11",
       "published_at": "2026/03/26 15:09",
-      "collected_at": "2026-03-27T00:54:08.905883Z",
+      "collected_at": "2026-03-27T08:22:31.559525Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "WWW 2026｜快手新研究：当强化学习遇见语义ID，让推荐系统学会“高瞻远瞩”！",
-      "summary_zh": "机器之心：快手与复旦大学、天津大学合作提出分层语义强化学习（HSRL）框架，以解决推荐系统中强化学习面临的动作空间爆炸与探索效率低等挑战。该研究成果已被国际顶级学术会议WWW 2026收录，并获选为口头报告。"
+      "summary_zh": "机器之心：快手与复旦大学、天津大学合作提出分层语义强化学习（HSRL）框架，以解决推荐系统中强化学习面临的动作空间爆炸与探索效率低等挑战。该成果已被国际顶级学术会议WWW 2026收录并选为口头报告。"
     }
   ]
 }
