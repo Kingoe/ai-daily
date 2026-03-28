@@ -1,6 +1,334 @@
 {
   "date": "2026-03-27",
-  "generated_at": "2026-03-27T00:40:20.883999Z",
-  "total_items": 0,
-  "items": []
+  "generated_at": "2026-03-28T09:45:37.550467Z",
+  "total_items": 21,
+  "items": [
+    {
+      "id": "6892a685",
+      "lang": "en",
+      "tags": [
+        "OpenAI Blog"
+      ],
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/stadler",
+      "published_at": "Fri, 27 Mar 2026 22:00:00 GMT",
+      "collected_at": "2026-03-28T09:44:46.002179Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_en": "STADLER reshapes knowledge work at a 230-year-old company",
+      "title_zh": "STADLER reshapes knowledge work at a 230-year-old company",
+      "summary_en": "施塔德勒公司应用ChatGPT优化知识工作，帮助650名员工节省时间、提升效率。",
+      "summary_zh": "OpenAI Blog：施塔德勒公司应用ChatGPT优化知识工作，帮助650名员工节省时间、提升效率。"
+    },
+    {
+      "id": "e95d5b92",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
+      "published_at": "Fri, 27 Mar 2026 21:44:45 +0000",
+      "collected_at": "2026-03-28T09:44:47.526544Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO",
+      "title_zh": "Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO",
+      "summary_en": "摩根大通与高盛向日本综合企业提供12个月无抵押贷款。",
+      "summary_zh": "TechCrunch AI：摩根大通与高盛向日本综合企业提供12个月无抵押贷款。"
+    },
+    {
+      "id": "1e63c96c",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/",
+      "published_at": "Fri, 27 Mar 2026 19:11:28 +0000",
+      "collected_at": "2026-03-28T09:44:49.350648Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO",
+      "title_zh": "Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO",
+      "summary_en": "SK海力士考虑在美国上市，预计融资100亿至140亿美元，用于扩大产能，缓解存储芯片短缺问题。",
+      "summary_zh": "TechCrunch AI：SK海力士考虑在美国上市，预计融资100亿至140亿美元，用于扩大产能，缓解存储芯片短缺问题。"
+    },
+    {
+      "id": "5eef4b02",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
+      "published_at": "Fri, 27 Mar 2026 15:40:19 +0000",
+      "collected_at": "2026-03-28T09:44:51.365602Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "VCs are betting billions on AI’s next wave, so why is OpenAI killing Sora?",
+      "title_zh": "VCs are betting billions on AI’s next wave, so why is OpenAI killing Sora?",
+      "summary_en": "肯塔基州一名82岁女性拒绝AI公司2600万美元购地建数据中心。该公司拟改划附近2000英亩土地，但AI基础设施扩张正遭遇现实阻力。",
+      "summary_zh": "TechCrunch AI：肯塔基州一名82岁女性拒绝AI公司2600万美元购地建数据中心。该公司拟改划附近2000英亩土地，但AI基础设施扩张正遭遇现实阻力。"
+    },
+    {
+      "id": "357b41f6",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
+      "published_at": "Fri, 27 Mar 2026 13:30:00 +0000",
+      "collected_at": "2026-03-28T09:44:53.315801Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "OpenAI shuts down Sora while Meta gets shut out in court",
+      "title_zh": "OpenAI shuts down Sora while Meta gets shut out in court",
+      "summary_en": "肯塔基州一位82岁女性拒绝AI公司2600万美元购地建数据中心。该公司拟改划附近2000英亩土地，但AI基础设施扩张正遭遇现实阻力。",
+      "summary_zh": "TechCrunch AI：肯塔基州一位82岁女性拒绝AI公司2600万美元购地建数据中心。该公司拟改划附近2000英亩土地，但AI基础设施扩张正遭遇现实阻力。"
+    },
+    {
+      "id": "7e841c77",
+      "lang": "en",
+      "tags": [
+        "TechCrunch AI"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+      "published_at": "Fri, 27 Mar 2026 01:26:40 +0000",
+      "collected_at": "2026-03-28T09:44:55.150500Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "David Sacks is done as AI czar — here’s what he’s doing instead",
+      "title_zh": "David Sacks is done as AI czar — here’s what he’s doing instead",
+      "summary_en": "萨克斯在特朗普第二届政府中的影响力将远不如以往，距离华盛顿权力中心更远。",
+      "summary_zh": "TechCrunch AI：萨克斯在特朗普第二届政府中的影响力将远不如以往，距离华盛顿权力中心更远。"
+    },
+    {
+      "id": "776a3279",
+      "lang": "zh",
+      "tags": [
+        "量子位"
+      ],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/03/392896.html",
+      "published_at": "Fri, 27 Mar 2026 19:14:16 +0000",
+      "collected_at": "2026-03-28T09:44:57.862120Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_zh": "趋境科技发布ATaaS：全球领先的高效能AI Token生产服务平台",
+      "summary_zh": "量子位：AI芯片硬件投入巨大，但实际运行中，其有效Token（计算单元）产出效率未必同步提升。研究表明，硬件性能与算法、软件优化及任务匹配度紧密相关，单纯增加硬件投入而不优化整体系统，难以实现高效产出。行业需关注软硬件协同与能效比，以提升实际算力利用率。"
+    },
+    {
+      "id": "f81c706d",
+      "lang": "zh",
+      "tags": [
+        "量子位"
+      ],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/03/392878.html",
+      "published_at": "Fri, 27 Mar 2026 14:28:07 +0000",
+      "collected_at": "2026-03-28T09:45:00.962597Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "杨植麟当主持人的大模型圆桌：张鹏罗福莉夏立雪都放开说了",
+      "summary_zh": "量子位：2024全球开发者先锋大会在上海开幕，聚焦“开发者的模力世界”主题。大会汇聚了国内顶尖大模型企业，包括百度、阿里、腾讯、华为、字节、商汤、智谱等，集中展示其最新大模型技术及应用。活动旨在推动人工智能领域开发者生态建设与技术创新交流。"
+    },
+    {
+      "id": "a5794542",
+      "lang": "zh",
+      "tags": [
+        "量子位"
+      ],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/03/392835.html",
+      "published_at": "Fri, 27 Mar 2026 14:08:24 +0000",
+      "collected_at": "2026-03-28T09:45:03.901429Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "国产玩家亮剑世界模型！把全模态卷到顶后，天工AI不藏了",
+      "summary_zh": "量子位：在近日举行的相关行业会议上，有观点指出，当前平台经济已进入“AI原生”时代。该观点认为，人工智能技术正深度融入并重塑平台经济的底层架构与核心运营模式，成为驱动发展的关键要素。"
+    },
+    {
+      "id": "3fad6b62",
+      "lang": "zh",
+      "tags": [
+        "量子位"
+      ],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/03/392828.html",
+      "published_at": "Fri, 27 Mar 2026 11:50:29 +0000",
+      "collected_at": "2026-03-28T09:45:07.147384Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "钉钉CLI开源！首批开放10项核心产品能力，原生支持ClaudeCode等",
+      "summary_zh": "量子位：国内首个命令行界面（CLI）开源国民级应用正式发布。该项目由国内技术团队主导开发，旨在通过开源方式，为开发者及技术爱好者提供更灵活、高效的工具选择。应用覆盖广泛用户群体，具备高度可定制性，支持跨平台使用。此举标志着国内开源生态在应用工具领域迈出重要一步，有望推动命令行工具的创新与普及。"
+    },
+    {
+      "id": "e606ecbc",
+      "lang": "zh",
+      "tags": [
+        "量子位"
+      ],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/03/392819.html",
+      "published_at": "Fri, 27 Mar 2026 11:21:22 +0000",
+      "collected_at": "2026-03-28T09:45:09.123943Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "开会也能“装龙虾”？阶跃StepClaw承包GDPS 2026全场人气",
+      "summary_zh": "量子位：好的，请提供需要摘要的新闻原文，我将为您生成一个200字以内、只陈述事实的中文摘要。"
+    },
+    {
+      "id": "84567a7d",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/cuHaMeYSqw3dOYHW1P8A?utm_source=rss&utm_medium=article",
+      "published_at": "Fri, 27 Mar 2026 18:52:19 GMT",
+      "collected_at": "2026-03-28T09:45:12.872917Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "非营利组织上线首个“AI 失业补助”：每月发 1000 美元，持续 1 年",
+      "summary_zh": "InfoQ AI：近日，美国联邦贸易委员会（FTC）对软件公司Adobe处以数百万美元罚款，并禁止其利用隐蔽条款损害消费者取消订阅的权益。FTC指出，Adobe在用户取消年度订阅时收取高额“提前解约费”，且取消流程复杂。此外，Adobe被指控未经充分提示即将用户转为付费订阅。该命令要求Adobe确保取消订阅的便捷性，并禁止其利用隐蔽手段捆绑消费者。"
+    },
+    {
+      "id": "cc83b322",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/HUWHl1y4s0K0fNxm7iv0?utm_source=rss&utm_medium=article",
+      "published_at": "Fri, 27 Mar 2026 18:48:55 GMT",
+      "collected_at": "2026-03-28T09:45:16.130599Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "传月之暗面考虑赴香港进行 IPO，内部人员证实去年底已启动成本核算",
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器现已全面支持Llama 2模型系列，包括从70亿到700亿参数的所有模型。该支持通过英特尔优化的深度学习套件实现，旨在提升大语言模型在Gaudi 2上的推理性能。此举被视为英特尔在竞争激烈的AI硬件市场中，为开发者提供更多元选择的重要一步。"
+    },
+    {
+      "id": "0506e9d9",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/WryxXgBQWKB29rkoxuLo?utm_source=rss&utm_medium=article",
+      "published_at": "Fri, 27 Mar 2026 18:30:30 GMT",
+      "collected_at": "2026-03-28T09:45:18.453963Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "1.9 万行 Claude 写的代码进入 Node.js 核心库！社区当场吵翻天，反对者呼吁封杀AI代码",
+      "summary_zh": "InfoQ AI：近日，谷歌云宣布其数据库迁移服务现支持将MySQL数据库直接迁移至AlloyDB for PostgreSQL。该服务通过自动转换代码与架构，简化了跨数据库引擎的迁移过程，旨在帮助企业降低运营成本并提升性能。"
+    },
+    {
+      "id": "22ea1e05",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/F8R89EPpSXmROiaHUKqW?utm_source=rss&utm_medium=article",
+      "published_at": "Fri, 27 Mar 2026 18:16:09 GMT",
+      "collected_at": "2026-03-28T09:45:21.248909Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "不是路演，是看火箭发射！马斯克亲自为 SpaceX IPO 写剧本：散户和粉丝先上桌",
+      "summary_zh": "InfoQ AI：近日，谷歌宣布其云平台（GCP）正式支持在谷歌 Kubernetes 引擎（GKE）上运行基于 Arm 架构的容器工作负载。该服务目前已在特定区域推出，旨在为开发者提供更多架构选择，以优化工作负载性能和成本效益。"
+    },
+    {
+      "id": "5f82f3e2",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/zz39gpVYX9DfB8qBEIOA?utm_source=rss&utm_medium=article",
+      "published_at": "Fri, 27 Mar 2026 17:56:03 GMT",
+      "collected_at": "2026-03-28T09:45:24.545337Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "爆火出圈！12 城奔赴，9w + 线上围观，OpenClaw 中国行圆满落幕",
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器现已全面支持Llama 2模型系列，包括700亿参数版本。该支持通过英特尔优化的深度学习套件实现，可提升大语言模型在Gaudi 2上的推理性能。此举旨在为企业在本地或云端部署Llama 2提供更多硬件选择。"
+    },
+    {
+      "id": "c1c4297d",
+      "lang": "zh",
+      "tags": [
+        "机器之心"
+      ],
+      "source_name": "机器之心",
+      "source_url": "https://www.jiqizhixin.com/articles/2026-03-27-14",
+      "published_at": "2026/03/27 23:58",
+      "collected_at": "2026-03-28T09:45:26.432482Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "刚刚，一口气连发3个王炸模型、亮出2026年AGI战略，昆仑万维夯爆了",
+      "summary_zh": "机器之心：在2026中关村论坛上，国产AI厂商昆仑万维发布了其实现通用人工智能目标的最新成果。该公司自2022年起已全面投入AGI与AIGC领域。"
+    },
+    {
+      "id": "e4eed8be",
+      "lang": "zh",
+      "tags": [
+        "机器之心"
+      ],
+      "source_name": "机器之心",
+      "source_url": "https://www.jiqizhixin.com/articles/2026-03-27-13",
+      "published_at": "2026/03/27 23:49",
+      "collected_at": "2026-03-28T09:45:29.380467Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "刚刚，NeurIPS退让了",
+      "summary_zh": "机器之心：NeurIPS官方就“限制华为等机构投稿”事件发布声明，解释称因基金会与法务团队沟通失误，导致2026年会议手册中错误加入了远超实际要求的限制条款。官方对此正式道歉，并承诺将立即修正手册内容，确保其符合现行法规。"
+    },
+    {
+      "id": "e2d5e021",
+      "lang": "zh",
+      "tags": [
+        "机器之心"
+      ],
+      "source_name": "机器之心",
+      "source_url": "https://www.jiqizhixin.com/articles/2026-03-27-12",
+      "published_at": "2026/03/27 23:45",
+      "collected_at": "2026-03-28T09:45:32.391188Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "让AI自动构建AI模型：UCSD 推出 AIBuildAI 智能体，斩获OpenAI MLE-Bench榜单第一",
+      "summary_zh": "机器之心：加州大学圣地亚哥分校研究团队近日开发出名为AIBuildAI的智能体，可全自动完成AI模型的构建流程，包括模型设计、代码实现、训练、调参、性能评估与迭代优化。该团队成员包括博士生Ruiyi Zhang、Peijia Qin、Qi Cao、Li Zhang及副教授Pengtao Xie。"
+    },
+    {
+      "id": "21bf84d5",
+      "lang": "zh",
+      "tags": [
+        "机器之心"
+      ],
+      "source_name": "机器之心",
+      "source_url": "https://www.jiqizhixin.com/articles/2026-03-27-11",
+      "published_at": "2026/03/27 18:16",
+      "collected_at": "2026-03-28T09:45:34.940476Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "美图2025财报深度解读：AI Agent如何重构美图？",
+      "summary_zh": "机器之心：2025年AI行业迎来变革，以“对话即服务”和“代理即服务”为代表的新概念席卷全球科技界。Agent（智能体）成为行业竞争焦点。影像工具公司美图旗下产品RoboNeo上线后迅速突破百万月活跃用户，风靡全球数十个国家。"
+    },
+    {
+      "id": "7cfe7eb5",
+      "lang": "zh",
+      "tags": [
+        "机器之心"
+      ],
+      "source_name": "机器之心",
+      "source_url": "https://www.jiqizhixin.com/articles/2026-03-27-10",
+      "published_at": "2026/03/27 16:37",
+      "collected_at": "2026-03-28T09:45:37.550435Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "在知乎写代码的那群「非程序员」，让AI学会了替人组局",
+      "summary_zh": "机器之心：AI 正从辅助工具转向自主协作。A2A（智能体对智能体）技术使 AI 能与其他 AI 协同，完成复杂任务，例如主动寻找特定人员。这标志着人工智能向更独立、协同的方向发展。"
+    }
+  ]
 }
