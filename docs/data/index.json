@@ -1,6 +1,6 @@
 {
   "latest_date": "2026-03-29",
-  "updated_at": "2026-03-29T17:21:27.779565Z",
+  "updated_at": "2026-03-29T21:18:06.802152Z",
   "dates": [
     "2026-03-29",
     "2026-03-28",
@@ -12,7 +12,24 @@
   ],
   "items": [
     {
-      "id": "1ae763b3",
+      "id": "fb65bac9",
+      "lang": "en",
+      "tags": [
+        "Hacker News AI"
+      ],
+      "source_name": "Hacker News AI",
+      "source_url": "https://github.com/austin-weeks/miasma",
+      "published_at": "Sun, 29 Mar 2026 10:10:12 +0000",
+      "collected_at": "2026-03-29T21:17:39.927862Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
+      "title_zh": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
+      "summary_en": "开源项目Miasma发布，可将AWS Lambda函数转换为自包含二进制文件，便于本地运行与部署。该项目在Hacker News获44分、19条评论。",
+      "summary_zh": "Hacker News AI：开源项目Miasma发布，可将AWS Lambda函数转换为自包含二进制文件，便于本地运行与部署。该项目在Hacker News获44分、19条评论。"
+    },
+    {
+      "id": "5aa2a232",
       "lang": "en",
       "tags": [
         "Hacker News AI"
@@ -20,16 +37,16 @@
       "source_name": "Hacker News AI",
       "source_url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
       "published_at": "Sun, 29 Mar 2026 08:18:55 +0000",
-      "collected_at": "2026-03-29T17:21:03.963156Z",
+      "collected_at": "2026-03-29T21:17:42.002868Z",
       "importance": 3,
       "merged_sources": [],
       "title_en": "What if AI doesn't need more RAM but better math?",
       "title_zh": "What if AI doesn't need more RAM but better math?",
-      "summary_en": "文章探讨AI发展可能无需更多数据，而是通过改进算法与模型效率实现突破。观点源于对当前数据依赖型发展路径的反思。",
-      "summary_zh": "Hacker News AI：文章探讨AI发展可能无需更多数据，而是通过改进算法与模型效率实现突破。观点源于对当前数据依赖型发展路径的反思。"
+      "summary_en": "文章探讨AI发展可能无需更多数据，而是通过提升算法效率与利用现有数据实现突破。",
+      "summary_zh": "Hacker News AI：文章探讨AI发展可能无需更多数据，而是通过提升算法效率与利用现有数据实现突破。"
     },
     {
-      "id": "dec227ab",
+      "id": "3a2e2199",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -37,14 +54,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/393064.html",
       "published_at": "Sun, 29 Mar 2026 02:49:35 +0000",
-      "collected_at": "2026-03-29T17:21:06.987526Z",
+      "collected_at": "2026-03-29T21:17:45.213024Z",
       "importance": 4,
       "merged_sources": [],
       "title_zh": "小沓AI・智能营销产品 2026GDPS重磅发布",
-      "summary_zh": "量子位：中国国家航天局宣布，计划在2030年前实现火星采样返回任务。该任务将分两步实施：首先发射探测器着陆火星并采集样本，随后由另一探测器将样本带回地球。此举旨在深化对火星地质、环境及潜在生命迹象的研究，标志着中国深空探测能力的进一步提升。"
+      "summary_zh": "量子位：中国国家互联网信息办公室发布《促进和规范数据跨境流动规定》，明确重要数据出境需经安全评估，但符合条件可免予申报。规定旨在保障数据安全，促进跨境流动，便利国际贸易。新规自公布之日起施行。"
     },
     {
-      "id": "22947285",
+      "id": "9c6683f8",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -52,14 +69,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/393045.html",
       "published_at": "Sun, 29 Mar 2026 01:27:39 +0000",
-      "collected_at": "2026-03-29T17:21:09.725826Z",
+      "collected_at": "2026-03-29T21:17:49.019794Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "论芯率先跑进AI for EDA产线：读芯片协议文档速度25倍，揪出respin级bug",
-      "summary_zh": "量子位：中国科学家成功研制出新型量子计算原型机“九章三号”，其处理特定问题的速度比目前全球最快的超级计算机快一亿亿倍。该成果于2023年10月11日发表于国际学术期刊《物理评论快报》。"
+      "summary_zh": "量子位：美国联邦贸易委员会（FTC）指控亚马逊使用名为“Project Nessie”的秘密算法抬高商品价格，导致消费者多支付超10亿美元。该算法被用于预测其他零售商是否会跟随亚马逊提价，从而帮助亚马逊在超过八年的时间里非法增加利润。FTC在反垄断诉讼中披露了这一细节，指出亚马逊利用其市场支配地位损害消费者和竞争对手利益。"
     },
     {
-      "id": "d4984c21",
+      "id": "c24c2bfc",
       "lang": "zh",
       "tags": [
         "量子位"
@@ -67,14 +84,14 @@
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/392996.html",
       "published_at": "Sun, 29 Mar 2026 01:09:41 +0000",
-      "collected_at": "2026-03-29T17:21:13.042604Z",
+      "collected_at": "2026-03-29T21:17:51.535998Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "海淀AI，集体开弓：少年极客、中年创客与ICU归来者",
-      "summary_zh": "量子位：近日，北京海淀区举办“最强大脑”活动，吸引众多高智商人才参与。该活动旨在通过智力挑战项目选拔优秀人才，参与者需完成一系列高难度认知任务。活动组织方表示，此举为发掘和培养顶尖智力人才提供平台。目前，活动已顺利完成，具体获奖名单将后续公布。"
+      "summary_zh": "量子位：北京市海淀区近日启动“最强大脑”人才聚集计划，旨在吸引全球顶尖科技人才与创新团队，通过资金支持、平台搭建等政策强化区域科技创新核心功能，服务北京国际科技创新中心建设。"
     },
     {
-      "id": "addeb887",
+      "id": "7cbd4759",
       "lang": "zh",
       "tags": [
         "InfoQ AI"
@@ -82,14 +99,14 @@
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
       "published_at": "Sun, 29 Mar 2026 15:00:00 GMT",
-      "collected_at": "2026-03-29T17:21:16.161570Z",
+      "collected_at": "2026-03-29T21:17:54.595530Z",
       "importance": 4,
       "merged_sources": [],
       "title_zh": "Vercel 发布生成式 UI 框架 JSON-Render",
-      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器已获得美国政府的出口许可，可继续向中国市场销售。该产品专为AI训练和推理设计，此前因出口管制面临不确定性。此举意味着英特尔在中国市场的相关业务得以延续。"
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其至强6能效核处理器（代号Sierra Forest）已开始批量出货。该处理器采用英特尔3制程工艺，拥有144个能效核，主要面向云服务提供商，旨在提升数据中心能效与密度。"
     },
     {
-      "id": "effc0e90",
+      "id": "f8709cb9",
       "lang": "zh",
       "tags": [
         "InfoQ AI"
@@ -97,14 +114,14 @@
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/Ru7tUbogi8Rek26YPeGN?utm_source=rss&utm_medium=article",
       "published_at": "Sun, 29 Mar 2026 11:00:00 GMT",
-      "collected_at": "2026-03-29T17:21:19.560413Z",
+      "collected_at": "2026-03-29T21:17:58.039664Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "Rust 的独特之处不只内存安全：来自自主机器人的启示",
-      "summary_zh": "InfoQ AI：近日，美国联邦贸易委员会（FTC）对软件公司Adobe处以数百万美元罚款，指控其在订阅服务取消流程中存在“隐蔽费用”和“繁琐步骤”等欺骗行为。FTC指出，Adobe的取消流程复杂且不透明，对消费者造成困扰。Adobe已同意支付罚款并简化其取消政策。"
+      "summary_zh": "InfoQ AI：近日，美国联邦贸易委员会（FTC）对软件公司Adobe处以罚款，并禁止其利用隐藏条款损害消费者权益。FTC指出，Adobe在用户取消订阅时设置障碍，并提前收取高额解约费。根据和解协议，Adobe需支付数百万美元罚款，并调整其订阅取消流程，确保用户能便捷退订。"
     },
     {
-      "id": "3e3f6301",
+      "id": "778f8135",
       "lang": "zh",
       "tags": [
         "InfoQ AI"
@@ -112,14 +129,14 @@
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/dl0kKEXKi8PSDB6xP53B?utm_source=rss&utm_medium=article",
       "published_at": "Sun, 29 Mar 2026 10:00:00 GMT",
-      "collected_at": "2026-03-29T17:21:24.090503Z",
+      "collected_at": "2026-03-29T21:18:02.489782Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "面向生产的 AgentOps：小红书 AI Agent 应用工程化实践｜QCon北京",
-      "summary_zh": "InfoQ AI：近日，谷歌宣布其云平台Vertex AI新增支持Llama 3.1大语言模型系列，包括405B、70B和8B三个版本。该服务已在谷歌云控制台和Model Garden中上线，支持文本生成、多语言对话、代码编写等多种任务，并可通过Vertex AI的定制工具进行微调。此举旨在为用户提供更多元化的模型选择，并增强谷歌云在AI服务领域的竞争力。"
+      "summary_zh": "InfoQ AI：近日，谷歌宣布其云平台（GCP）正式推出基于英伟达 Blackwell 架构的 GB200 NVL72 服务器。该服务器专为大规模 AI 训练和推理设计，搭载 72 个 Blackwell GPU 和 36 个 Grace CPU，通过第五代 NVLink 实现高速互联。谷歌计划将其用于训练下一代 Gemini 模型，并称其性能较前代提升显著。"
     },
     {
-      "id": "24cedad1",
+      "id": "177b75a3",
       "lang": "zh",
       "tags": [
         "InfoQ AI"
@@ -127,11 +144,11 @@
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/pcPNtvFz4qWfdDdMwEpe?utm_source=rss&utm_medium=article",
       "published_at": "Sun, 29 Mar 2026 10:00:00 GMT",
-      "collected_at": "2026-03-29T17:21:27.721562Z",
+      "collected_at": "2026-03-29T21:18:06.799129Z",
       "importance": 3,
       "merged_sources": [],
       "title_zh": "AWS S3 推出账户级区域命名空间，结束存在长达 18 年之久的全局存储桶名称冲突",
-      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器现已全面支持Llama 3模型系列（包括8B和70B版本）。该支持通过最新发布的SynapseAI 1.15软件套件实现，可优化模型在Gaudi 2平台上的推理性能。此举旨在为开发者提供除英伟达GPU之外的另一个高性能AI算力选项。"
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器现已全面支持Llama 2模型系列（包括70B参数版本）以及Stable Diffusion等大模型。该支持通过英特尔优化的开源深度学习套件Synapse AI实现，旨在提升大语言模型和生成式AI应用的推理性能。此举被视为英特尔在竞争日益激烈的AI硬件市场中，与英伟达等厂商展开较量的重要一步。"
     }
   ]
 }
