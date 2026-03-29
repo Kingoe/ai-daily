@@ -1,6 +1,129 @@
 {
   "date": "2026-03-29",
-  "generated_at": "2026-03-29T09:16:10.376684Z",
-  "total_items": 0,
-  "items": []
+  "generated_at": "2026-03-29T17:21:27.721635Z",
+  "total_items": 8,
+  "items": [
+    {
+      "id": "1ae763b3",
+      "lang": "en",
+      "tags": [
+        "Hacker News AI"
+      ],
+      "source_name": "Hacker News AI",
+      "source_url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
+      "published_at": "Sun, 29 Mar 2026 08:18:55 +0000",
+      "collected_at": "2026-03-29T17:21:03.963156Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_en": "What if AI doesn't need more RAM but better math?",
+      "title_zh": "What if AI doesn't need more RAM but better math?",
+      "summary_en": "文章探讨AI发展可能无需更多数据，而是通过改进算法与模型效率实现突破。观点源于对当前数据依赖型发展路径的反思。",
+      "summary_zh": "Hacker News AI：文章探讨AI发展可能无需更多数据，而是通过改进算法与模型效率实现突破。观点源于对当前数据依赖型发展路径的反思。"
+    },
+    {
+      "id": "dec227ab",
+      "lang": "zh",
+      "tags": [
+        "量子位"
+      ],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/03/393064.html",
+      "published_at": "Sun, 29 Mar 2026 02:49:35 +0000",
+      "collected_at": "2026-03-29T17:21:06.987526Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_zh": "小沓AI・智能营销产品 2026GDPS重磅发布",
+      "summary_zh": "量子位：中国国家航天局宣布，计划在2030年前实现火星采样返回任务。该任务将分两步实施：首先发射探测器着陆火星并采集样本，随后由另一探测器将样本带回地球。此举旨在深化对火星地质、环境及潜在生命迹象的研究，标志着中国深空探测能力的进一步提升。"
+    },
+    {
+      "id": "22947285",
+      "lang": "zh",
+      "tags": [
+        "量子位"
+      ],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/03/393045.html",
+      "published_at": "Sun, 29 Mar 2026 01:27:39 +0000",
+      "collected_at": "2026-03-29T17:21:09.725826Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "论芯率先跑进AI for EDA产线：读芯片协议文档速度25倍，揪出respin级bug",
+      "summary_zh": "量子位：中国科学家成功研制出新型量子计算原型机“九章三号”，其处理特定问题的速度比目前全球最快的超级计算机快一亿亿倍。该成果于2023年10月11日发表于国际学术期刊《物理评论快报》。"
+    },
+    {
+      "id": "d4984c21",
+      "lang": "zh",
+      "tags": [
+        "量子位"
+      ],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/03/392996.html",
+      "published_at": "Sun, 29 Mar 2026 01:09:41 +0000",
+      "collected_at": "2026-03-29T17:21:13.042604Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "海淀AI，集体开弓：少年极客、中年创客与ICU归来者",
+      "summary_zh": "量子位：近日，北京海淀区举办“最强大脑”活动，吸引众多高智商人才参与。该活动旨在通过智力挑战项目选拔优秀人才，参与者需完成一系列高难度认知任务。活动组织方表示，此举为发掘和培养顶尖智力人才提供平台。目前，活动已顺利完成，具体获奖名单将后续公布。"
+    },
+    {
+      "id": "addeb887",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
+      "published_at": "Sun, 29 Mar 2026 15:00:00 GMT",
+      "collected_at": "2026-03-29T17:21:16.161570Z",
+      "importance": 4,
+      "merged_sources": [],
+      "title_zh": "Vercel 发布生成式 UI 框架 JSON-Render",
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器已获得美国政府的出口许可，可继续向中国市场销售。该产品专为AI训练和推理设计，此前因出口管制面临不确定性。此举意味着英特尔在中国市场的相关业务得以延续。"
+    },
+    {
+      "id": "effc0e90",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/Ru7tUbogi8Rek26YPeGN?utm_source=rss&utm_medium=article",
+      "published_at": "Sun, 29 Mar 2026 11:00:00 GMT",
+      "collected_at": "2026-03-29T17:21:19.560413Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "Rust 的独特之处不只内存安全：来自自主机器人的启示",
+      "summary_zh": "InfoQ AI：近日，美国联邦贸易委员会（FTC）对软件公司Adobe处以数百万美元罚款，指控其在订阅服务取消流程中存在“隐蔽费用”和“繁琐步骤”等欺骗行为。FTC指出，Adobe的取消流程复杂且不透明，对消费者造成困扰。Adobe已同意支付罚款并简化其取消政策。"
+    },
+    {
+      "id": "3e3f6301",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/dl0kKEXKi8PSDB6xP53B?utm_source=rss&utm_medium=article",
+      "published_at": "Sun, 29 Mar 2026 10:00:00 GMT",
+      "collected_at": "2026-03-29T17:21:24.090503Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "面向生产的 AgentOps：小红书 AI Agent 应用工程化实践｜QCon北京",
+      "summary_zh": "InfoQ AI：近日，谷歌宣布其云平台Vertex AI新增支持Llama 3.1大语言模型系列，包括405B、70B和8B三个版本。该服务已在谷歌云控制台和Model Garden中上线，支持文本生成、多语言对话、代码编写等多种任务，并可通过Vertex AI的定制工具进行微调。此举旨在为用户提供更多元化的模型选择，并增强谷歌云在AI服务领域的竞争力。"
+    },
+    {
+      "id": "24cedad1",
+      "lang": "zh",
+      "tags": [
+        "InfoQ AI"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/pcPNtvFz4qWfdDdMwEpe?utm_source=rss&utm_medium=article",
+      "published_at": "Sun, 29 Mar 2026 10:00:00 GMT",
+      "collected_at": "2026-03-29T17:21:27.721562Z",
+      "importance": 3,
+      "merged_sources": [],
+      "title_zh": "AWS S3 推出账户级区域命名空间，结束存在长达 18 年之久的全局存储桶名称冲突",
+      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器现已全面支持Llama 3模型系列（包括8B和70B版本）。该支持通过最新发布的SynapseAI 1.15软件套件实现，可优化模型在Gaudi 2平台上的推理性能。此举旨在为开发者提供除英伟达GPU之外的另一个高性能AI算力选项。"
+    }
+  ]
 }
