@@ -451,14 +451,6 @@
             themeToggle.textContent = theme === 'dark' ? '☀️ 浅色' : '🌙 深色';
         }
 
-        // 模式切换
-        const modeToggle = document.getElementById('modeToggle');
-        modeToggle.addEventListener('click', () => {
-            currentMode = currentMode === 'day' ? 'week' : 'day';
-            modeToggle.textContent = currentMode === 'day' ? '周模式' : '日模式';
-            // TODO: 实现周模式
-        });
-
         // 加载数据
         async function loadData() {
             try {
@@ -535,6 +527,10 @@
 
             const sourceFilter = document.getElementById('sourceFilter');
             const tagFilter = document.getElementById('tagFilter');
+
+            // 先清空已有选项（避免累积）
+            sourceFilter.innerHTML = '<option value="all">全部</option>';
+            tagFilter.innerHTML = '<option value="all">全部</option>';
 
             sources.forEach(source => {
                 const option = document.createElement('option');
@@ -672,7 +668,7 @@
         document.getElementById('modeToggle').addEventListener('click', () => {
             currentMode = currentMode === 'day' ? 'week' : 'day';
             modeToggle.textContent = currentMode === 'day' ? '周模式' : '日模式';
-            
+
             if (currentMode === 'week') {
                 // 周模式：加载最近 7 天的数据
                 loadWeekData();
@@ -681,12 +677,12 @@
                 loadDateData(currentDate);
             }
         });
-        
+
         // 加载周数据
         async function loadWeekData() {
             const weekDates = availableDates.slice(0, 7); // 最近 7 天
             const weekItems = [];
-            
+
             // 加载每一天的数据
             for (const date of weekDates) {
                 try {
@@ -703,21 +699,23 @@
                     console.warn(`无法加载 ${date} 的数据`);
                 }
             }
-            
+
             // 按日期和重要性排序
             weekItems.sort((a, b) => {
                 if (b._date !== a._date) return b._date.localeCompare(a._date);
                 return b.importance - a.importance;
             });
-            
+
             currentIndex = { items: weekItems };
             populateFilters(weekItems);
             renderNews(weekItems);
             updateStats(weekItems);
-            
+
             // 禁用日期按钮（周模式下）
             document.getElementById('prevDate').disabled = true;
             document.getElementById('nextDate').disabled = true;
+            // 隐藏日期显示
+            document.getElementById('currentDate').textContent = '最近 7 天';
         }
 
         // 初始化
