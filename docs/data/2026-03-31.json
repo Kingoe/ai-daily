@@ -1,18 +1,7 @@
 {
-  "latest_date": "2026-04-01",
-  "updated_at": "2026-04-01T14:25:52.211902Z",
-  "dates": [
-    "2026-04-01",
-    "2026-03-31",
-    "2026-03-30",
-    "2026-03-29",
-    "2026-03-28",
-    "2026-03-27",
-    "2026-03-26",
-    "2026-03-25",
-    "2026-03-24",
-    "2026-03-23"
-  ],
+  "date": "2026-03-31",
+  "generated_at": "2026-04-01T21:00:00.000000Z",
+  "total_items": 10,
   "items": [
     {
       "id": "a1b2c3d4",
@@ -21,10 +10,7 @@
       "title_zh": "加速 AI 的下一阶段",
       "summary_zh": "OpenAI：OpenAI 发布\"加速 AI 下一阶段\"的公告，概述未来发展路线图。",
       "summary_en": "Source: OpenAI announces 'Accelerating the next phase of AI', outlining future roadmap.",
-      "tags": [
-        "OpenAI Blog",
-        "产品发布"
-      ],
+      "tags": ["OpenAI Blog", "产品发布"],
       "source_name": "OpenAI Blog",
       "source_url": "https://openai.com/index/accelerating-the-next-phase-ai",
       "published_at": "Tue, 31 Mar 2026 13:00:00 GMT",
@@ -39,9 +25,7 @@
       "title_zh": "Anthropic 这一个月",
       "summary_zh": "TechCrunch AI：报道 Anthropic 本月的一系列动态和产品更新。",
       "summary_en": "Source: TechCrunch covers Anthropic's series of developments and product updates this month.",
-      "tags": [
-        "TechCrunch AI"
-      ],
+      "tags": ["TechCrunch AI"],
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
       "published_at": "Tue, 31 Mar 2026 23:58:26 +0000",
@@ -56,10 +40,7 @@
       "title_zh": "Salesforce 宣布为 Slack 进行 AI 重大改造，推出 30 项新功能",
       "summary_zh": "TechCrunch AI：Salesforce 宣布为 Slack 进行 AI 重大改造，推出 30 项新功能。",
       "summary_en": "Source: Salesforce announces an AI-heavy makeover for Slack, with 30 new features.",
-      "tags": [
-        "TechCrunch AI",
-        "产品更新"
-      ],
+      "tags": ["TechCrunch AI", "产品更新"],
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
       "published_at": "Tue, 31 Mar 2026 22:46:25 +0000",
@@ -74,10 +55,7 @@
       "title_zh": "OpenAI 在 1220 亿美元融资中从散户投资者募集 30 亿美元",
       "summary_zh": "TechCrunch AI：OpenAI 在 1220 亿美元融资中从散户投资者募集 30 亿美元。",
       "summary_en": "Source: OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise.",
-      "tags": [
-        "TechCrunch AI",
-        "融资并购"
-      ],
+      "tags": ["TechCrunch AI", "融资并购"],
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
       "published_at": "Tue, 31 Mar 2026 21:00:00 +0000",
@@ -90,10 +68,7 @@
       "lang": "zh",
       "title_zh": "公司注册10天，估值逾10亿美元！理想智驾大牛刷出具身创投新热度",
       "summary_zh": "量子位：理想智驾大牛创立的公司注册仅 10 天，估值已超过 10 亿美元。",
-      "tags": [
-        "量子位",
-        "融资并购"
-      ],
+      "tags": ["量子位", "融资并购"],
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/394149.html",
       "published_at": "Tue, 31 Mar 2026 10:00:00 +0000",
@@ -106,9 +81,7 @@
       "lang": "zh",
       "title_zh": "智谱上市后首份财报：超7.24亿元！国内收入最高大模型公司，MaaS发力了",
       "summary_zh": "量子位：智谱发布上市后首份财报，收入超 7.24 亿元，成为国内收入最高的大模型公司。",
-      "tags": [
-        "量子位"
-      ],
+      "tags": ["量子位"],
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/394135.html",
       "published_at": "Tue, 31 Mar 2026 09:00:00 +0000",
@@ -121,10 +94,7 @@
       "lang": "zh",
       "title_zh": "刚刚，TRAE SOLO上线独立端：已经不满足写代码，还要跨界干活！",
       "summary_zh": "量子位：TRAE SOLO 上线独立端，功能扩展到代码以外的领域。",
-      "tags": [
-        "量子位",
-        "产品发布"
-      ],
+      "tags": ["量子位", "产品发布"],
       "source_name": "量子位",
       "source_url": "https://www.qbitai.com/2026/03/394014.html",
       "published_at": "Tue, 31 Mar 2026 08:00:00 +0000",
@@ -137,10 +107,7 @@
       "lang": "zh",
       "title_zh": "ClawTip来了！京东科技首发推出AI智能体的\"专属自主零钱包\"",
       "summary_zh": "InfoQ AI：京东科技推出 ClawTip，为 AI 智能体提供专属自主零钱包。",
-      "tags": [
-        "InfoQ AI",
-        "产品发布"
-      ],
+      "tags": ["InfoQ AI", "产品发布"],
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/0LYV5gNFxcNMV4vUeISx?utm_source=rss&utm_medium=article",
       "published_at": "Tue, 31 Mar 2026 16:00:00 GMT",
@@ -153,9 +120,7 @@
       "lang": "zh",
       "title_zh": "终于不用跟图表死磕了！这个 Skill 让 OpenClaw 直接封神",
       "summary_zh": "InfoQ AI：介绍一个新 Skill，让 OpenClaw 在图表处理方面变得更强大。",
-      "tags": [
-        "InfoQ AI"
-      ],
+      "tags": ["InfoQ AI"],
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/article/fjCbCtuTVq77dYvLb9TM?utm_source=rss&utm_medium=article",
       "published_at": "Tue, 31 Mar 2026 14:00:00 GMT",
@@ -168,9 +133,7 @@
       "lang": "zh",
       "title_zh": "如何用阿里云龙虾CoPaw搭建个人第二大脑",
       "summary_zh": "InfoQ AI：介绍如何使用阿里云龙虾 CoPaw 搭建个人第二大脑。",
-      "tags": [
-        "InfoQ AI"
-      ],
+      "tags": ["InfoQ AI"],
       "source_name": "InfoQ AI",
       "source_url": "https://www.infoq.cn/video/rmwSfzYoCTzqT4bSaH6u?utm_source=rss&utm_medium=article",
       "published_at": "Tue, 31 Mar 2026 12:00:00 GMT",

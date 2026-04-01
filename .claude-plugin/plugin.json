@@ -1,11 +1,15 @@
 {
-  "name": "ai-daily",
-  "version": "1.0.0",
-  "description": "AI 行业资讯日报自动生成工具",
+  "name": "ai-suite",
+  "version": "2.0.0",
+  "description": "AI 行业资讯工具套件（日报、周报）",
   "skills": [
     {
       "name": "ai-daily",
       "path": "./skills/ai-daily/SKILL.md"
+    },
+    {
+      "name": "ai-weekly",
+      "path": "./skills/ai-weekly/SKILL.md"
     }
   ],
   "commands": [
@@ -20,6 +24,12 @@
       "description": "运行完整的 AI 日报流水线",
       "usage": "run-pipeline",
       "example": "run-pipeline"
+    },
+    {
+      "name": "generate-weekly",
+      "description": "生成指定周的 AI 周报数据",
+      "usage": "generate-weekly [year-week]",
+      "example": "generate-weekly 2026-13"
     }
   ]
 }

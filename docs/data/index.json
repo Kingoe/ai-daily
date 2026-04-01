@@ -1,7 +1,10 @@
 {
-  "latest_date": "2026-03-29",
-  "updated_at": "2026-03-29T21:28:21.612871Z",
+  "latest_date": "2026-04-01",
+  "updated_at": "2026-04-01T14:25:52.211902Z",
   "dates": [
+    "2026-04-01",
+    "2026-03-31",
+    "2026-03-30",
     "2026-03-29",
     "2026-03-28",
     "2026-03-27",
@@ -12,143 +15,168 @@
   ],
   "items": [
     {
-      "id": "713755c2",
+      "id": "a1b2c3d4",
       "lang": "en",
+      "title_en": "Accelerating the next phase of AI",
+      "title_zh": "加速 AI 的下一阶段",
+      "summary_zh": "OpenAI：OpenAI 发布\"加速 AI 下一阶段\"的公告，概述未来发展路线图。",
+      "summary_en": "Source: OpenAI announces 'Accelerating the next phase of AI', outlining future roadmap.",
       "tags": [
-        "Hacker News AI"
+        "OpenAI Blog",
+        "产品发布"
       ],
-      "source_name": "Hacker News AI",
-      "source_url": "https://github.com/austin-weeks/miasma",
-      "published_at": "Sun, 29 Mar 2026 10:10:12 +0000",
-      "collected_at": "2026-03-29T21:27:52.128705Z",
-      "importance": 3,
-      "merged_sources": [],
-      "title_en": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
-      "title_zh": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
-      "summary_en": "开源工具Miasma发布，可将Python代码转为可独立运行的二进制文件，支持跨平台，无需安装Python环境。",
-      "summary_zh": "Hacker News AI：开源工具Miasma发布，可将Python代码转为可独立运行的二进制文件，支持跨平台，无需安装Python环境。"
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "published_at": "Tue, 31 Mar 2026 13:00:00 GMT",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
+      "importance": 4,
+      "merged_sources": []
     },
     {
-      "id": "446ab9c3",
+      "id": "b2c3d4e5",
       "lang": "en",
+      "title_en": "Anthropic is having a month",
+      "title_zh": "Anthropic 这一个月",
+      "summary_zh": "TechCrunch AI：报道 Anthropic 本月的一系列动态和产品更新。",
+      "summary_en": "Source: TechCrunch covers Anthropic's series of developments and product updates this month.",
       "tags": [
-        "Hacker News AI"
+        "TechCrunch AI"
       ],
-      "source_name": "Hacker News AI",
-      "source_url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
-      "published_at": "Sun, 29 Mar 2026 08:18:55 +0000",
-      "collected_at": "2026-03-29T21:27:54.719632Z",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
+      "published_at": "Tue, 31 Mar 2026 23:58:26 +0000",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
       "importance": 3,
-      "merged_sources": [],
-      "title_en": "What if AI doesn't need more RAM but better math?",
-      "title_zh": "What if AI doesn't need more RAM but better math?",
-      "summary_en": "文章提出，当前AI发展可能无需依赖更多数据，而是通过优化算法与模型架构来提升性能。这一观点在Hacker News引发讨论，获78分、42条评论。",
-      "summary_zh": "Hacker News AI：文章提出，当前AI发展可能无需依赖更多数据，而是通过优化算法与模型架构来提升性能。这一观点在Hacker News引发讨论，获78分、42条评论。"
+      "merged_sources": []
     },
     {
-      "id": "32b9dbf9",
-      "lang": "zh",
+      "id": "c3d4e5f6",
+      "lang": "en",
+      "title_en": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
+      "title_zh": "Salesforce 宣布为 Slack 进行 AI 重大改造，推出 30 项新功能",
+      "summary_zh": "TechCrunch AI：Salesforce 宣布为 Slack 进行 AI 重大改造，推出 30 项新功能。",
+      "summary_en": "Source: Salesforce announces an AI-heavy makeover for Slack, with 30 new features.",
       "tags": [
-        "量子位"
+        "TechCrunch AI",
+        "产品更新"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+      "published_at": "Tue, 31 Mar 2026 22:46:25 +0000",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "d4e5f6a7",
+      "lang": "en",
+      "title_en": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
+      "title_zh": "OpenAI 在 1220 亿美元融资中从散户投资者募集 30 亿美元",
+      "summary_zh": "TechCrunch AI：OpenAI 在 1220 亿美元融资中从散户投资者募集 30 亿美元。",
+      "summary_en": "Source: OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise.",
+      "tags": [
+        "TechCrunch AI",
+        "融资并购"
+      ],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+      "published_at": "Tue, 31 Mar 2026 21:00:00 +0000",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
+      "importance": 5,
+      "merged_sources": []
+    },
+    {
+      "id": "e5f6a7b8",
+      "lang": "zh",
+      "title_zh": "公司注册10天，估值逾10亿美元！理想智驾大牛刷出具身创投新热度",
+      "summary_zh": "量子位：理想智驾大牛创立的公司注册仅 10 天，估值已超过 10 亿美元。",
+      "tags": [
+        "量子位",
+        "融资并购"
       ],
       "source_name": "量子位",
-      "source_url": "https://www.qbitai.com/2026/03/393064.html",
-      "published_at": "Sun, 29 Mar 2026 02:49:35 +0000",
-      "collected_at": "2026-03-29T21:27:57.554719Z",
+      "source_url": "https://www.qbitai.com/2026/03/394149.html",
+      "published_at": "Tue, 31 Mar 2026 10:00:00 +0000",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
       "importance": 4,
-      "merged_sources": [],
-      "title_zh": "小沓AI・智能营销产品 2026GDPS重磅发布",
-      "summary_zh": "量子位：中国联通发布“联通智慧大脑”，通过数据、解析、营销三位一体能力，实现从传统通信运营商向数字科技公司的战略升级。该系统已服务超过1.3亿用户，显著提升了营销转化效率和客户满意度。"
+      "merged_sources": []
     },
     {
-      "id": "1ae5b5ce",
+      "id": "f6a7b8c9",
       "lang": "zh",
+      "title_zh": "智谱上市后首份财报：超7.24亿元！国内收入最高大模型公司，MaaS发力了",
+      "summary_zh": "量子位：智谱发布上市后首份财报，收入超 7.24 亿元，成为国内收入最高的大模型公司。",
       "tags": [
         "量子位"
       ],
       "source_name": "量子位",
-      "source_url": "https://www.qbitai.com/2026/03/393045.html",
-      "published_at": "Sun, 29 Mar 2026 01:27:39 +0000",
-      "collected_at": "2026-03-29T21:28:02.434765Z",
-      "importance": 3,
-      "merged_sources": [],
-      "title_zh": "论芯率先跑进AI for EDA产线：读芯片协议文档速度25倍，揪出respin级bug",
-      "summary_zh": "量子位：美国联邦贸易委员会（FTC）指控亚马逊使用名为“Project Nessie”的秘密算法抬高商品价格，导致消费者多支付超10亿美元。该算法被用于预测竞争对手是否会跟随亚马逊提价，从而帮助亚马逊在超过八年的时间里非法增加利润。FTC在反垄断诉讼中披露了这一细节，指出该算法是亚马逊非法垄断策略的一部分。亚马逊否认指控，称FTC误解了该算法的用途。"
-    },
-    {
-      "id": "8e0e5575",
-      "lang": "zh",
-      "tags": [
-        "量子位"
-      ],
-      "source_name": "量子位",
-      "source_url": "https://www.qbitai.com/2026/03/392996.html",
-      "published_at": "Sun, 29 Mar 2026 01:09:41 +0000",
-      "collected_at": "2026-03-29T21:28:06.244461Z",
-      "importance": 3,
-      "merged_sources": [],
-      "title_zh": "海淀AI，集体开弓：少年极客、中年创客与ICU归来者",
-      "summary_zh": "量子位：近日，北京海淀区举办“最强大脑”活动，吸引众多高智商人才参与。该活动旨在通过智力挑战项目选拔优秀人才，参与者需完成一系列高难度认知任务。活动组织方表示，此举为发掘和培养顶尖智力资源，推动相关领域创新发展。目前，活动已顺利完成阶段性选拔。"
-    },
-    {
-      "id": "4e67c4aa",
-      "lang": "zh",
-      "tags": [
-        "InfoQ AI"
-      ],
-      "source_name": "InfoQ AI",
-      "source_url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
-      "published_at": "Sun, 29 Mar 2026 15:00:00 GMT",
-      "collected_at": "2026-03-29T21:28:09.986062Z",
+      "source_url": "https://www.qbitai.com/2026/03/394135.html",
+      "published_at": "Tue, 31 Mar 2026 09:00:00 +0000",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
       "importance": 4,
-      "merged_sources": [],
-      "title_zh": "Vercel 发布生成式 UI 框架 JSON-Render",
-      "summary_zh": "InfoQ AI：近日，美国联邦贸易委员会（FTC）对软件公司Adobe提出起诉，指控其在订阅服务中设置“隐藏”的提前解约费，并增加取消订阅的难度，涉嫌欺骗消费者。FTC指出，Adobe在消费者不知情的情况下收取高额解约费，且取消流程复杂。该机构正寻求经济处罚，并要求Adobe停止相关行为。"
+      "merged_sources": []
     },
     {
-      "id": "c42cd926",
+      "id": "a7b8c9d0",
       "lang": "zh",
+      "title_zh": "刚刚，TRAE SOLO上线独立端：已经不满足写代码，还要跨界干活！",
+      "summary_zh": "量子位：TRAE SOLO 上线独立端，功能扩展到代码以外的领域。",
+      "tags": [
+        "量子位",
+        "产品发布"
+      ],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/03/394014.html",
+      "published_at": "Tue, 31 Mar 2026 08:00:00 +0000",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "b8c9d0e1",
+      "lang": "zh",
+      "title_zh": "ClawTip来了！京东科技首发推出AI智能体的\"专属自主零钱包\"",
+      "summary_zh": "InfoQ AI：京东科技推出 ClawTip，为 AI 智能体提供专属自主零钱包。",
+      "tags": [
+        "InfoQ AI",
+        "产品发布"
+      ],
+      "source_name": "InfoQ AI",
+      "source_url": "https://www.infoq.cn/article/0LYV5gNFxcNMV4vUeISx?utm_source=rss&utm_medium=article",
+      "published_at": "Tue, 31 Mar 2026 16:00:00 GMT",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "c9d0e1f2",
+      "lang": "zh",
+      "title_zh": "终于不用跟图表死磕了！这个 Skill 让 OpenClaw 直接封神",
+      "summary_zh": "InfoQ AI：介绍一个新 Skill，让 OpenClaw 在图表处理方面变得更强大。",
       "tags": [
         "InfoQ AI"
       ],
       "source_name": "InfoQ AI",
-      "source_url": "https://www.infoq.cn/article/Ru7tUbogi8Rek26YPeGN?utm_source=rss&utm_medium=article",
-      "published_at": "Sun, 29 Mar 2026 11:00:00 GMT",
-      "collected_at": "2026-03-29T21:28:13.562137Z",
+      "source_url": "https://www.infoq.cn/article/fjCbCtuTVq77dYvLb9TM?utm_source=rss&utm_medium=article",
+      "published_at": "Tue, 31 Mar 2026 14:00:00 GMT",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
       "importance": 3,
-      "merged_sources": [],
-      "title_zh": "Rust 的独特之处不只内存安全：来自自主机器人的启示",
-      "summary_zh": "InfoQ AI：近日，美国联邦贸易委员会（FTC）对软件公司Adobe处以罚款，并禁止其利用隐藏条款损害消费者权益。FTC指出，Adobe在用户取消订阅时设置障碍，并提前收取高额解约费。此外，Adobe还被指控在用户不知情的情况下，将其最受欢迎的订阅计划默认转为年度付费，并对此隐瞒重要条款。"
+      "merged_sources": []
     },
     {
-      "id": "5b6e052a",
+      "id": "d0e1f2a3",
       "lang": "zh",
+      "title_zh": "如何用阿里云龙虾CoPaw搭建个人第二大脑",
+      "summary_zh": "InfoQ AI：介绍如何使用阿里云龙虾 CoPaw 搭建个人第二大脑。",
       "tags": [
         "InfoQ AI"
       ],
       "source_name": "InfoQ AI",
-      "source_url": "https://www.infoq.cn/article/dl0kKEXKi8PSDB6xP53B?utm_source=rss&utm_medium=article",
-      "published_at": "Sun, 29 Mar 2026 10:00:00 GMT",
-      "collected_at": "2026-03-29T21:28:17.503721Z",
+      "source_url": "https://www.infoq.cn/video/rmwSfzYoCTzqT4bSaH6u?utm_source=rss&utm_medium=article",
+      "published_at": "Tue, 31 Mar 2026 12:00:00 GMT",
+      "collected_at": "2026-04-01T21:00:00.000000Z",
       "importance": 3,
-      "merged_sources": [],
-      "title_zh": "面向生产的 AgentOps：小红书 AI Agent 应用工程化实践｜QCon北京",
-      "summary_zh": "InfoQ AI：近日，谷歌宣布其云平台（GCP）正式推出基于英伟达最新Blackwell架构的GB200 NVL72服务器。该服务器配备72个Blackwell GPU和36个Grace CPU，通过第五代NVLink实现高效互联，旨在为训练大规模AI模型提供强大算力支持。谷歌表示，这有助于客户降低大模型训练成本并提升效率。"
-    },
-    {
-      "id": "29a6a842",
-      "lang": "zh",
-      "tags": [
-        "InfoQ AI"
-      ],
-      "source_name": "InfoQ AI",
-      "source_url": "https://www.infoq.cn/article/pcPNtvFz4qWfdDdMwEpe?utm_source=rss&utm_medium=article",
-      "published_at": "Sun, 29 Mar 2026 10:00:00 GMT",
-      "collected_at": "2026-03-29T21:28:21.606319Z",
-      "importance": 3,
-      "merged_sources": [],
-      "title_zh": "AWS S3 推出账户级区域命名空间，结束存在长达 18 年之久的全局存储桶名称冲突",
-      "summary_zh": "InfoQ AI：近日，英特尔宣布其Gaudi 2 AI加速器现已全面支持Llama 2模型系列（包括70B参数版本）以及Stable Diffusion等大模型。该加速器通过优化，在运行Llama 2 70B模型时，其推理速度可达竞争对手A100 GPU的2倍。此举旨在为AI开发者提供更高性能与更具成本效益的硬件选择。"
+      "merged_sources": []
     }
   ]
 }

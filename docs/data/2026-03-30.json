@@ -1,0 +1,52 @@
+{
+  "date": "2026-03-30",
+  "generated_at": "2026-04-01T21:30:00.000000Z",
+  "total_items": 3,
+  "items": [
+    {
+      "id": "x1y2z3a4",
+      "lang": "en",
+      "title_en": "15% of Americans say they'd be willing to work for an AI boss",
+      "title_zh": "15% 的美国人表示愿意为 AI 老板工作",
+      "summary_zh": "TechCrunch AI：Quinnipiac 民意调查显示，15% 的美国人表示愿意为 AI 老板工作。",
+      "summary_en": "Source: Quinnipiac poll shows 15% of Americans say they'd be willing to work for an AI boss.",
+      "tags": ["TechCrunch AI"],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
+      "published_at": "Mon, 30 Mar 2026 20:00:00 +0000",
+      "collected_at": "2026-04-01T21:30:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "y2z3a4b5",
+      "lang": "en",
+      "title_en": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+      "title_zh": "受欢迎的 AI 网关创业公司 LiteLLM 放弃了有争议的 Delve",
+      "summary_zh": "TechCrunch AI：受欢迎的 AI 网关创业公司 LiteLLM 放弃了有争议的 Delve。",
+      "summary_en": "Source: Popular AI gateway startup LiteLLM ditches controversial startup Delve.",
+      "tags": ["TechCrunch AI"],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+      "published_at": "Mon, 30 Mar 2026 18:00:00 +0000",
+      "collected_at": "2026-04-01T21:30:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "z3a4b5c6",
+      "lang": "en",
+      "title_en": "As more Americans adopt AI tools, fewer say they can trust the results",
+      "title_zh": "随着越来越多的美国人使用 AI 工具，相信其结果的人却越来越少",
+      "summary_zh": "TechCrunch AI：民意调查显示，随着越来越多的美国人使用 AI 工具，相信其结果的人却越来越少。",
+      "summary_en": "Source: Poll shows as more Americans adopt AI tools, fewer say they can trust the results.",
+      "tags": ["TechCrunch AI"],
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+      "published_at": "Mon, 30 Mar 2026 16:00:00 +0000",
+      "collected_at": "2026-04-01T21:30:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    }
+  ]
+}
