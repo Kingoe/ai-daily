@@ -4,5 +4,25 @@
   "description": "AI industry news pipeline: fetch, deduplicate, summarize, and archive to daily JSON for GitHub Pages",
   "author": {
     "name": "Kingoe"
-  }
+  },
+  "skills": [
+    {
+      "name": "ai-daily",
+      "path": "./skills/ai-daily/SKILL.md"
+    }
+  ],
+  "commands": [
+    {
+      "name": "daily",
+      "description": "Run the AI daily news pipeline for today",
+      "usage": "daily",
+      "example": "daily"
+    },
+    {
+      "name": "daily-for",
+      "description": "Run the AI daily news pipeline for a specific date",
+      "usage": "daily-for <date>",
+      "example": "daily-for 2026-04-02"
+    }
+  ]
 }
