@@ -1,62 +1,86 @@
-# AI Daily Skill
+---
+name: ai-daily
+description: >
+  Fetch, deduplicate, summarize, and archive AI industry news into a structured daily JSON file.
+  Use this skill whenever the user wants to: collect or update AI news, run the daily
+  news pipeline, process articles from AI company blogs or tech media, generate the daily JSON
+  data file for the AI daily website, or when they mention "AI 日报", "news pipeline",
+  "update the feed", "抓取新闻", "生成日报", "更新数据", or "run the pipeline".
+version: 1.0.0
+---
 
-## 触发条件
+# AI Daily News Pipeline
 
-当用户请求生成 AI 日报、运行日报流水线、或指定日期生成数据时触发此 Skill。
+Collect, process, and archive AI industry news into structured daily JSON files that power a static GitHub Pages website.
 
-典型触发语句：
-- "帮我运行今天的 AI 日报流水线"
-- "生成 2026-03-25 的日报数据"
-- "今天的 AI 新闻有哪些"
-- "采集最新的 AI 行业资讯"
+## Pipeline Overview
 
-## 执行管道
+Execute these stages **in order** for a given target date:
 
-按照以下顺序执行 8 个步骤：
+```
+Fetch → Filter → Semantic Dedup → Time Verify → Summarize (EN+ZH) → Tag → Score → Write JSON
+```
 
-### 1. Fetch（采集）
-从预定义的信息源获取最新的 AI 行业资讯
+**Output files:**
+- `data/YYYY-MM-DD.json` — archive copy per day
+- `data/index.json` — archive index metadata
+- `docs/data/YYYY-MM-DD.json` — GitHub Pages published daily file
+- `docs/data/index.json` — GitHub Pages published latest index
 
-### 2. Filter（过滤）
-筛选出与 AI 相关的高质量内容，排除广告、重复发布等低质量信息
+**Default target date:** today (UTC). Accept explicit dates from the user (e.g. "run for 2026-04-02").
 
-### 3. Dedup（去重）
-使用语义去重技术，合并同一事件的不同来源报道
+## Quick Step Reference
 
-### 4. Verify（验证）
-验证信息的真实性和准确性，排除虚假新闻
+| Step | Action | Detail |
+|------|--------|--------|
+| 1. Fetch | Collect articles from all sources | See `references/sources.md` |
+| 2. Filter | Drop ads, job posts, off-topic | Discard if title/URL contains `sponsored`, `advertis`, `partner content`, `giveaway` |
+| 3. Dedup | Merge same-event articles | Keep highest tier source; move other URL to `merged_sources[]` |
+| 4. Time Verify | Confirm `published_at` | Check HTML meta → RSS pubDate → null if unknown |
+| 5. Summarize | Generate ZH/EN summaries | See `references/prompts.md` for prompt templates |
+| 6. Tag | Assign 1–3 tags | See `references/schema.md` Tag Taxonomy |
+| 7. Score | Set `importance` 1–5 | Default to 3 when ambiguous |
+| 8. Write | Merge into daily JSON + rebuild index | Incremental by default; skip existing `id`s |
 
-### 5. Summarize（摘要）
-为每条新闻生成中英文双语摘要（≤200 字/词，严格事实导向）
+## Running the Pipeline
 
-### 6. Tag（打标签）
-为每条新闻自动分类打标签（如：模型发布、产品更新、融资并购等）
+**Incremental run (default):**
+1. Read existing `data/YYYY-MM-DD.json` if it exists
+2. Fetch sources, process only new articles not yet in the file
+3. Append new items, sort by `published_at` descending
+4. Rebuild `data/index.json` and mirror both files into `docs/data/`
 
-### 7. Score（评分）
-根据新闻重要性进行评分（1-5 分）
+**Full re-run:**
+- Delete the daily JSON first, then run the pipeline; all articles reprocessed
 
-### 8. Write（写入）
-将结果写入 JSON 文件并更新索引
+## Key Constraints
 
-## 输出文件
+- Articles outside the target date window (00:00–23:59 UTC) are discarded after time verification
+- EN and ZH articles covering the same event are **kept as separate items** (not merged)
+- Never leave `tags: []` — use closest taxonomy match when uncertain
+- Default `importance` to 3 when ambiguous
+- `summary_en` / `title_en` are **omitted** for ZH-only items (`lang: "zh"`)
 
-- `data/YYYY-MM-DD.json`：每日归档数据
-- `docs/data/YYYY-MM-DD.json`：用于 GitHub Pages 的副本
-- `data/index.json`：最新数据索引（前端读取入口）
-- `docs/data/index.json`：GitHub Pages 索引副本
+## Fetch Strategy (Tool Selection)
 
-## 数据来源
+Use the fastest available method per source. Fall back in order:
 
-详见 [sources.md](references/sources.md)
+1. **`WebFetch`** — for RSS feeds and plain HTML pages
+2. **`WebSearch`** — fallback when WebFetch fails
 
-## 数据格式
+## Git Push
 
-详见 [schema.md](references/schema.md)
+After writing JSON files, commit and push:
+```bash
+git add data/ docs/data/
+git commit -m "feat: add YYYY-MM-DD AI daily pipeline output (N items)"
+git push
+```
 
-## 提示词模板
+## Reference Files
 
-详见 [prompts.md](references/prompts.md)
+Load these as needed during pipeline execution:
 
-## 管道详细说明
-
-详见 [pipeline.md](references/pipeline.md)
+- `references/sources.md` — complete source list with URLs
+- `references/schema.md` — full JSON schema for EN items, ZH items, and index.json
+- `references/prompts.md` — all AI prompt templates (dedup, summarize, score)

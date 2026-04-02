@@ -1,35 +1,8 @@
 {
-  "name": "ai-suite",
-  "version": "2.0.0",
-  "description": "AI 行业资讯工具套件（日报、周报）",
-  "skills": [
-    {
-      "name": "ai-daily",
-      "path": "./skills/ai-daily/SKILL.md"
-    },
-    {
-      "name": "ai-weekly",
-      "path": "./skills/ai-weekly/SKILL.md"
-    }
-  ],
-  "commands": [
-    {
-      "name": "generate-daily",
-      "description": "生成指定日期的 AI 日报数据",
-      "usage": "generate-daily [date]",
-      "example": "generate-daily 2026-03-25"
-    },
-    {
-      "name": "run-pipeline",
-      "description": "运行完整的 AI 日报流水线",
-      "usage": "run-pipeline",
-      "example": "run-pipeline"
-    },
-    {
-      "name": "generate-weekly",
-      "description": "生成指定周的 AI 周报数据",
-      "usage": "generate-weekly [year-week]",
-      "example": "generate-weekly 2026-13"
-    }
-  ]
+  "name": "ai-daily",
+  "version": "1.0.0",
+  "description": "AI industry news pipeline: fetch, deduplicate, summarize, and archive to daily JSON for GitHub Pages",
+  "author": {
+    "name": "Kingoe"
+  }
 }
