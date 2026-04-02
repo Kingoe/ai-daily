@@ -16,32 +16,6 @@
   ],
   "items": [
     {
-      "id": "e5f6g7h8",
-      "lang": "zh",
-      "title_zh": "新智元：国内大模型企业推出多模态Agent平台，赋能企业级应用",
-      "summary_zh": "新智元：国内大模型企业发布多模态Agent平台，支持文本、图像、语音等多模态交互，可快速构建企业级AI应用。",
-      "tags": ["产品更新", "多模态", "Agent 编程", "新智元"],
-      "source_name": "新智元",
-      "source_url": "https://www.aijingtai.com",
-      "published_at": "Thu, 02 Apr 2026 11:00:00 GMT",
-      "collected_at": "2026-04-02T09:00:00.000000Z",
-      "importance": 3,
-      "merged_sources": []
-    },
-    {
-      "id": "f6g7h8i9",
-      "lang": "zh",
-      "title_zh": "新智元：AI芯片初创企业发布最新NPU，能效比提升300%",
-      "summary_zh": "新智元：AI芯片初创企业发布最新神经网络处理器（NPU），能效比相比上一代提升300%，适用于边缘计算场景。",
-      "tags": ["硬件", "产品发布", "新智元"],
-      "source_name": "新智元",
-      "source_url": "https://www.aijingtai.com/2026/04/02/new-npu-release",
-      "published_at": "Thu, 02 Apr 2026 09:30:00 GMT",
-      "collected_at": "2026-04-02T09:00:00.000000Z",
-      "importance": 4,
-      "merged_sources": []
-    },
-    {
       "id": "a1b2c3d4",
       "lang": "en",
       "title_en": "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident",
@@ -72,21 +46,6 @@
       "merged_sources": []
     },
     {
-      "id": "c3d4e5f6",
-      "lang": "en",
-      "title_en": "Gradient Labs gives every bank customer an AI account manager",
-      "title_zh": "Gradient Labs 为每位银行客户提供 AI 账户经理",
-      "summary_zh": "OpenAI：Gradient Labs 使用 GPT-4.1 和 GPT-5.4 mini 及 nano 来驱动 AI 代理，以低延迟和高可靠性自动化银行支持工作流。",
-      "summary_en": "OpenAI: Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-      "tags": ["产品更新", "OpenAI"],
-      "source_name": "OpenAI",
-      "source_url": "https://openai.com/index/gradient-labs",
-      "published_at": "Wed, 01 Apr 2026 02:00:00 GMT",
-      "collected_at": "2026-04-02T09:00:00.000000Z",
-      "importance": 3,
-      "merged_sources": []
-    },
-    {
       "id": "d4e5f6g7",
       "lang": "en",
       "title_en": "Meta's natural gas binge could power South Dakota",
@@ -97,6 +56,21 @@
       "source_name": "TechCrunch",
       "source_url": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
       "published_at": "Wed, 01 Apr 2026 18:35:36 GMT",
+      "collected_at": "2026-04-02T09:00:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "c3d4e5f6",
+      "lang": "en",
+      "title_en": "Gradient Labs gives every bank customer an AI account manager",
+      "title_zh": "Gradient Labs 为每位银行客户提供 AI 账户经理",
+      "summary_zh": "OpenAI：Gradient Labs 使用 GPT-4.1 和 GPT-5.4 mini 及 nano 来驱动 AI 代理，以低延迟和高可靠性自动化银行支持工作流。",
+      "summary_en": "OpenAI: Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
+      "tags": ["产品更新", "OpenAI"],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/gradient-labs",
+      "published_at": "Wed, 01 Apr 2026 02:00:00 GMT",
       "collected_at": "2026-04-02T09:00:00.000000Z",
       "importance": 3,
       "merged_sources": []

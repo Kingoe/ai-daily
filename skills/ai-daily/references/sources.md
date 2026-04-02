@@ -28,7 +28,6 @@
 | 名称 | URL | 说明 | 采集方式 |
 |------|-----|------|---------|
 | 量子位 | https://www.qbitai.com/feed | 国内 AI 行业媒体 | RSS |
-| 新智元 | https://www.aijingtai.com | 国内 AI 行业媒体 | WebFetch 抓取 |
 | InfoQ AI | https://www.infoq.cn/feed.xml | AI 技术和行业资讯 | RSS |
 | 机器之心 | https://www.jiqizhixin.com | 国内 AI 行业媒体 | WebFetch 抓取 |
 
@@ -36,7 +35,7 @@
 
 1. **P0（必采）**：OpenAI、Google DeepMind、Anthropic 官方公告
 2. **P1（重要）**：TechCrunch 独家报道、Cursor 官方更新
-3. **P2（补充）**：量子位、新智元、InfoQ、机器之心 中文资讯
+3. **P2（补充）**：量子位、InfoQ、机器之心 中文资讯
 4. **P3（参考）**：Hacker News、The Verge 社区热议
 
 ## 采集频率

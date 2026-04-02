@@ -82,7 +82,6 @@ Use the fastest available method per source. Fall back in order:
 | The Verge | WebFetch HTML | `https://www.theverge.com/ai-artificial-intelligence` — extract AI articles |
 | Hacker News | WebFetch RSS | `https://hnrss.org/frontpage?q=AI` |
 | 量子位 | WebFetch RSS | `https://www.qbitai.com/feed` |
-| 新智元 | WebFetch HTML | `https://www.aijingtai.com` — parse latest AI news |
 | InfoQ AI | WebFetch RSS | `https://www.infoq.cn/feed.xml` |
 | 机器之心 | WebFetch HTML | `https://www.jiqizhixin.com` — parse latest AI news |
 
