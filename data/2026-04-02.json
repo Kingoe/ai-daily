@@ -1,8 +1,23 @@
 {
   "date": "2026-04-02",
   "generated_at": "2026-04-02T09:00:00.000000Z",
-  "total_items": 4,
+  "total_items": 5,
   "items": [
+    {
+      "id": "g7h8i9j0",
+      "lang": "en",
+      "title_en": "Accelerating the next phase of AI",
+      "title_zh": "加速 AI 的下一阶段",
+      "summary_zh": "OpenAI：OpenAI 筹集 1220 亿美元新资金，用于在全球扩展前沿 AI、投资下一代计算，并满足对 ChatGPT、Codex 和企业 AI 日益增长的需求。",
+      "summary_en": "OpenAI: OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "tags": ["融资并购", "OpenAI"],
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "published_at": "Tue, 31 Mar 2026 13:00:00 GMT",
+      "collected_at": "2026-04-02T09:00:00.000000Z",
+      "importance": 5,
+      "merged_sources": []
+    },
     {
       "id": "a1b2c3d4",
       "lang": "en",
