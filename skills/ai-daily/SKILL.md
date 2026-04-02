@@ -65,8 +65,25 @@ Fetch → Filter → Semantic Dedup → Time Verify → Summarize (EN+ZH) → Ta
 
 Use the fastest available method per source. Fall back in order:
 
-1. **`WebFetch`** — for RSS feeds and plain HTML pages
-2. **`WebSearch`** — fallback when WebFetch fails
+1. **RSS via WebFetch** — for sources with valid RSS feeds (OpenAI, DeepMind, TechCrunch, etc.)
+2. **WebFetch on HTML page** — for sources without RSS (Anthropic, Cursor, The Verge, 机器之心)
+3. **WebSearch** — fallback when direct fetch fails
+
+### Source-specific Fetch Instructions
+
+| Source | Method | Notes |
+|--------|--------|-------|
+| OpenAI | WebFetch RSS | `https://openai.com/blog/rss.xml` |
+| Google DeepMind | WebFetch RSS | `https://deepmind.google/discover/rss/` |
+| Anthropic | WebFetch HTML | `https://www.anthropic.com/news` — extract article links and titles |
+| Cursor | WebFetch HTML | `https://cursor.sh/blog` — parse blog posts |
+| TechCrunch | WebFetch RSS | `https://techcrunch.com/category/artificial-intelligence/feed/` |
+| MIT Tech Review | WebFetch RSS | `https://www.technologyreview.com/topic/artificial-intelligence/feed/` |
+| The Verge | WebFetch HTML | `https://www.theverge.com/ai-artificial-intelligence` — extract AI articles |
+| Hacker News | WebFetch RSS | `https://hnrss.org/frontpage?q=AI` |
+| 量子位 | WebFetch RSS | `https://www.qbitai.com/feed` |
+| InfoQ AI | WebFetch RSS | `https://www.infoq.cn/feed.xml` |
+| 机器之心 | WebFetch HTML | `https://www.jiqizhixin.com` — parse latest AI news |
 
 ## Git Push
 
