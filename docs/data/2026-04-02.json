@@ -1,8 +1,38 @@
 {
   "date": "2026-04-02",
   "generated_at": "2026-04-02T09:00:00.000000Z",
-  "total_items": 5,
+  "total_items": 7,
   "items": [
+    {
+      "id": "h8i9j0k1",
+      "lang": "en",
+      "title_en": "Mercor says it was hit by cyberattack tied to compromise of open source LiteLLM project",
+      "title_zh": "Mercor 称遭受与开源 LiteLLM 项目被入侵相关的网络攻击",
+      "summary_zh": "TechCrunch：这家 AI 招聘初创公司确认了一起安全事件，此前一个勒索黑客组织声称从该公司系统窃取了数据。",
+      "summary_en": "TechCrunch: The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company's systems.",
+      "tags": ["政策法规", "安全", "TechCrunch"],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
+      "published_at": "Wed, 01 Apr 2026 01:42:59 GMT",
+      "collected_at": "2026-04-02T09:00:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "i9j0k1l2",
+      "lang": "en",
+      "title_en": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
+      "title_zh": "Salesforce 为 Slack 宣布 AI 重磅更新，包含 30 项新功能",
+      "summary_zh": "TechCrunch：Slack 刚刚变得更加有用了，Salesforce 为其推出了 30 项 AI 新功能。",
+      "summary_en": "TechCrunch: Slack just got a whole lot more useful with 30 new AI features announced by Salesforce.",
+      "tags": ["产品更新", "TechCrunch"],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+      "published_at": "Tue, 31 Mar 2026 22:46:25 GMT",
+      "collected_at": "2026-04-02T09:00:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
     {
       "id": "g7h8i9j0",
       "lang": "en",
