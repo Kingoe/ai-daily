@@ -40,17 +40,11 @@ DOCS_DATA_DIR = PROJECT_ROOT / "docs" / "data"
 DATA_DIR.mkdir(exist_ok=True)
 DOCS_DATA_DIR.mkdir(exist_ok=True)
 
-# RSS 源列表
+# RSS 源列表（与 sources.md 保持一致）
 RSS_FEEDS = [
     {
         "name": "OpenAI Blog",
         "url": "https://openai.com/blog/rss.xml",
-        "type": "official",
-        "language": "en"
-    },
-    {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/updates/rss",
         "type": "official",
         "language": "en"
     },
@@ -61,20 +55,8 @@ RSS_FEEDS = [
         "language": "en"
     },
     {
-        "name": "Cursor Blog",
-        "url": "https://cursor.com/blog/rss",
-        "type": "official",
-        "language": "en"
-    },
-    {
         "name": "TechCrunch AI",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "type": "media",
-        "language": "en"
-    },
-    {
-        "name": "The Verge AI",
-        "url": "https://www.theverge.com/rss/ai-artificial-intelligence",
         "type": "media",
         "language": "en"
     },
