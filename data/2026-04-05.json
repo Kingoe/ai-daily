@@ -1,0 +1,102 @@
+{
+  "date": "2026-04-05",
+  "generated_at": "2026-04-06T15:30:00.000000Z",
+  "total_items": 7,
+  "items": [
+    {
+      "id": "h8i9j0k1",
+      "lang": "zh",
+      "title_zh": "OpenAI新模型不是GPTX！全新预训练「土豆」曝光，Sora成弃子的原因找到了",
+      "summary_zh": "量子位：OpenAI战略调整，放弃Sora聚焦可形成协同的Super App，因算力有限下难推进差异大的分支，Sora仍在机器人领域研究但未成熟到知识工作落地。Super App将整合编程、浏览器和ChatGPT，是体验AGI的端点应用。新预训练模型「Spud」代表过去两年研究成果，能解决更复杂问题、理解力更强。即将在秋季推出「AI研究员」，能承担相当比例科研任务。",
+      "tags": ["模型发布", "OpenAI"],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/04/396535.html",
+      "published_at": "2026-04-05T09:06:59Z",
+      "collected_at": "2026-04-06T15:30:00.000000Z",
+      "importance": 5,
+      "merged_sources": []
+    },
+    {
+      "id": "i9j0k1l2",
+      "lang": "zh",
+      "title_zh": "GPT-6，曝光了",
+      "summary_zh": "量子位：据传OpenAI最新GPT-6「Spud」模型将于4月14日发布，专为AGI构建，在代码、推理和agent任务上比GPT-5.4性能提升40%，原生支持文本/音频/图像/视频多模态，2M token上下文窗口。将统一ChatGPT、Codex和Atlas为单个桌面超级应用，内部定位为AGI「最后一公里」。预训练3月17日完成，定价具有竞争力。",
+      "tags": ["模型发布", "OpenAI"],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/04/396366.html",
+      "published_at": "2026-04-05T04:49:33Z",
+      "collected_at": "2026-04-06T15:30:00.000000Z",
+      "importance": 4,
+      "merged_sources": []
+    },
+    {
+      "id": "j0k1l2m3",
+      "lang": "zh",
+      "title_zh": "具身龙虾，上车理想",
+      "summary_zh": "量子位：理想推出StreamingClaw，兼容OpenClaw的流视频理解和具身智能统一agent框架，支持实时多模态流交互，将视觉输入作为直播数据而非离线文件处理。可检测驾驶员疲劳/手机使用、用户接近车辆时主动问候。采用多agent架构，包含主推理agent、记忆模块、主动交互agent及真实世界任务执行工具库。",
+      "tags": ["产品更新", "机器人"],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/04/396517.html",
+      "published_at": "2026-04-05T04:52:36Z",
+      "collected_at": "2026-04-06T15:30:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "k1l2m3n4",
+      "lang": "zh",
+      "title_zh": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
+      "summary_zh": "量子位：Linux内核维护者不堪重负，AI生成的漏洞报告以每天5-10份的速度涌入收件箱，而两年前仅每周2-3份。许多报告准确无误，开发者不得不持续修补，有人称工作量为「赛博马鞭」。Greg Kroah-Hartman表示最初认为AI报告是低质量垃圾，但现在所有开源安全团队都面临同样激增。",
+      "tags": ["行业合作"],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/04/396358.html",
+      "published_at": "2026-04-05T02:24:23Z",
+      "collected_at": "2026-04-06T15:30:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "l2m3n4o5",
+      "lang": "zh",
+      "title_zh": "太初元碁向员工发放百亿算力token并将共建高校AI科教融合学院",
+      "summary_zh": "量子位：太初元碁五周年活动宣布两项AI新举措：向20名员工发放价值千万元的国产超算算力token作为「算力福利」用于AI Agent创新，以及与浙江工商大学、无锡国家超算中心、浙江力积存储共建AI科教融合学院，为项目提供智能计算基础设施。",
+      "tags": ["行业合作"],
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/04/396533.html",
+      "published_at": "2026-04-05T08:53:12Z",
+      "collected_at": "2026-04-06T15:30:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "m3n4o5p6",
+      "lang": "en",
+      "title_en": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
+      "title_zh": "Show HN: Gemma Gem – 浏览器内置AI模型，无需API密钥，无需云端",
+      "summary_zh": "TechCrunch/Hacker News：Gemma Gem是Chrome扩展程序，通过WebGPU在设备上完全运行Google的Gemma 4模型——无需API密钥、无需云端、数据不离开机器。可读取页面、点击按钮、填写表单、运行JavaScript，并回答关于任何访问网站的问题。支持Gemma 4 E2B（约500MB）和E4B（约1.5GB）量化模型。",
+      "summary_en": "TechCrunch/Hacker News: Gemma Gem is a Chrome extension that runs Google's Gemma 4 model entirely on-device via WebGPU — no API keys, no cloud, no data leaving your machine. It can read pages, click buttons, fill forms, run JavaScript, and answer questions about any site you visit. Supports both Gemma 4 E2B (~500MB) and E4B (~1.5GB) quantized models.",
+      "tags": ["产品发布", "Agent 编程"],
+      "source_name": "Hacker News",
+      "source_url": "https://github.com/kessler/gemma-gem",
+      "published_at": "2026-04-05T00:14:37Z",
+      "collected_at": "2026-04-06T15:30:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    },
+    {
+      "id": "n4o5p6q7",
+      "lang": "en",
+      "title_en": "Can orbital data centers help justify a massive valuation for SpaceX?",
+      "title_zh": "轨道数据中心能否帮助证明SpaceX的巨额估值合理？",
+      "summary_zh": "TechCrunch：在TechCrunch的Equity播客最新一期中，团队讨论了Elon Musk的太空数据中心愿景。探讨这一新轨道基础设施业务能否支撑SpaceX目前的高额估值，该公司正寻求超越核心发射和卫星业务，扩展到太空计算服务。",
+      "summary_en": "TechCrunch: On the latest episode of TechCrunch's Equity podcast, the team debated Elon Musk's vision for data centers in space. Explores whether this new orbital infrastructure play could support SpaceX's towering current valuation, as the company looks beyond its core launch and satellite businesses to expand into space-based computing services.",
+      "tags": ["行业合作"],
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/",
+      "published_at": "2026-04-05T15:40:58Z",
+      "collected_at": "2026-04-06T15:30:00.000000Z",
+      "importance": 3,
+      "merged_sources": []
+    }
+  ]
+}
